@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\ADSWEBAPP_API.props" />
-</Project>
