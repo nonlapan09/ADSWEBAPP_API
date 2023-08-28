@@ -1,0 +1,16 @@
+.swagger-ui .topbar {
+    background: #f93e3e !important;
+}
+
+    .swagger-ui .topbar .download-url-wrapper {
+        display: none !important;
+    }
+
+.swagger-ui .info .title small.version-stamp {
+    display: none !important;
+}
+
+.swagger-ui img {
+    content: url('logoTHP.png');
+    height: 40px; /* height of your logo */
+}
