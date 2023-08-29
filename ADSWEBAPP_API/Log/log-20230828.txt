@@ -1,0 +1,1082 @@
+2023-08-28 11:01:27.559 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 11:01:27.663 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 11:01:27.668 +07:00 [INF] Hosting environment: Development
+2023-08-28 11:01:27.668 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 11:01:27.697 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 11:01:28.146 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 450.7365ms
+2023-08-28 11:01:28.163 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 11:01:28.167 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 11:01:28.168 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.9716ms
+2023-08-28 11:01:28.209 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.0804ms
+2023-08-28 11:01:28.286 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 11:01:28.422 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 135.5715ms
+2023-08-28 11:03:42.712 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 11:03:42.893 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 11:03:42.893 +07:00 [INF] Hosting environment: Development
+2023-08-28 11:03:42.893 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 11:03:42.914 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 11:03:43.105 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 191.9016ms
+2023-08-28 11:03:43.115 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 11:03:43.122 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.8898ms
+2023-08-28 11:03:43.129 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 11:03:43.144 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.7169ms
+2023-08-28 11:03:43.229 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 11:03:43.390 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 160.9069ms
+2023-08-28 11:03:57.038 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 11:03:57.041 +07:00 [INF] CORS policy execution successful.
+2023-08-28 11:03:57.053 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:03:57.115 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 11:03:57.126 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 11:03:57.232 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 11:03:57.240 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 11:03:57.240 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 11:03:57.682 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 11:03:58.247 +07:00 [INF] Executed DbCommand (73ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 11:03:58.316 +07:00 [INF] Authen Login: | End | test
+2023-08-28 11:03:58.393 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 11:03:58.405 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 11:03:58.409 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1280.0673ms
+2023-08-28 11:03:58.410 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 11:03:58.412 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1355.6727 ms
+2023-08-28 11:03:58.413 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6IjcyNjUzYmE3LWZmMjctNGRjMS04NTdhLTY0M2E2Njc4NGZkZSIsImV4cCI6MTY5MzI4MTgzOH0.UQv1O50wFG6NRVu70mXEfq5Z0cHxQmxOdXrH-yJSxrk","expiration":"2023-08-29T04:03:58Z"}
+2023-08-28 11:03:58.420 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1382.1818ms
+2023-08-28 11:04:19.683 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47
+2023-08-28 11:04:19.684 +07:00 [INF] CORS policy execution successful.
+2023-08-28 11:04:19.684 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Address/GetMasterCCAATTByPostcode
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Content-Length: 47
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:04:19.728 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 11:04:19.731 +07:00 [INF] Route matched with {action = "GetMasterCCAATTByPostcode", controller = "Address"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ResponsePostCode]] GetMasterCCAATTByPostcode(ADSWEBAPP_API.Dto.RequestAddressByPostcode) on controller ADSWEBAPP_API.Controllers.AddressController (ADSWEBAPP_API).
+2023-08-28 11:04:19.740 +07:00 [INF] RequestBody: {
+  "postcode": "13000",
+  "clearCache": true
+}
+2023-08-28 11:04:19.745 +07:00 [INF] API call started...
+2023-08-28 11:04:19.745 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Start | 
+2023-08-28 11:04:19.745 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 13000
+2023-08-28 11:04:19.746 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 13000 | {"Postcode":"13000","ClearCache":true}
+2023-08-28 11:04:22.373 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ResponsePostCode, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions, Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-08-28 11:04:22.390 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 11:04:22.391 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API) in 2659.4232ms
+2023-08-28 11:04:22.391 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 11:04:22.392 +07:00 [INF] HTTP POST /ads/Address/GetMasterCCAATTByPostcode responded 200 in 2707.3611 ms
+2023-08-28 11:04:22.392 +07:00 [INF] ResponseBody: {"loadedFromRedis":false,"data":[{"seq":1,"province":"พระนครศรีอยุธยา","district":"บางปะอิน","subDistrict":"ตลิ่งชัน"},{"seq":2,"province":"พระนครศรีอยุธยา","district":"บางปะอิน","subDistrict":"บ้านกรด"},{"seq":3,"province":"พระนครศรีอยุธยา","district":"บางปะอิน","subDistrict":"สามเรือน"},{"seq":4,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"กะมัง"},{"seq":5,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"คลองตะเคียน"},{"seq":6,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"คลองสระบัว"},{"seq":7,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"คลองสวนพลู"},{"seq":8,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"ท่าวาสุกรี"},{"seq":9,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"บ้านป้อม"},{"seq":10,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"บ้านรุน"},{"seq":11,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"บ้านเกาะ"},{"seq":12,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"บ้านใหม่"},{"seq":13,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"ประตูชัย"},{"seq":14,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"ปากกราน"},{"seq":15,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"ภูเขาทอง"},{"seq":16,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"ลุมพลี"},{"seq":17,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"วัดตูม"},{"seq":18,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"สวนพริก"},{"seq":19,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"สำเภาล่ม"},{"seq":20,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"หอรัตนไชย"},{"seq":21,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"หันตรา"},{"seq":22,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"หัวรอ"},{"seq":23,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"เกาะเรียน"},{"seq":24,"province":"พระนครศรีอยุธยา","district":"พระนครศรีอยุธยา","subDistrict":"ไผ่ลิง"},{"seq":25,"province":"พระนครศรีอยุธยา","district":"อุทัย","subDistrict":"ธนู"}],"options":{"absoluteExpiration":"2023-08-28T11:09:22.3628215+07:00","absoluteExpirationRelativeToNow":null,"slidingExpiration":"00:03:00"}}
+2023-08-28 11:04:22.393 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47 - 200 - application/json;+charset=utf-8 2709.4739ms
+2023-08-28 11:10:59.529 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 11:10:59.639 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 11:10:59.644 +07:00 [INF] Hosting environment: Development
+2023-08-28 11:10:59.644 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 11:10:59.665 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 11:10:59.861 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 11:10:59.862 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 197.4560ms
+2023-08-28 11:10:59.862 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 11:10:59.872 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 10.2148ms
+2023-08-28 11:10:59.885 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.5966ms
+2023-08-28 11:10:59.967 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 11:11:00.099 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 131.8167ms
+2023-08-28 11:11:14.961 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 11:11:14.964 +07:00 [INF] CORS policy execution successful.
+2023-08-28 11:11:14.974 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:11:15.032 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 11:11:15.043 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 11:11:15.136 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 11:11:15.145 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 11:11:15.145 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 11:11:15.517 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 11:11:16.036 +07:00 [INF] Executed DbCommand (59ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 11:11:16.102 +07:00 [INF] Authen Login: | End | test
+2023-08-28 11:11:16.175 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 11:11:16.181 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 11:11:16.184 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1138.5002ms
+2023-08-28 11:11:16.185 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 11:11:16.186 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1209.1889 ms
+2023-08-28 11:11:16.186 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6Ijk5NDA5ZmY0LTU5YWQtNDFkZS1iYzgwLTEzMzQ4ODhjYjIxOSIsImV4cCI6MTY5MzI4MjI3Nn0.MeGSsWh9W3FHy0hEaX1NEduWJSu-xrboblQCHMoDtGg","expiration":"2023-08-29T04:11:16Z"}
+2023-08-28 11:11:16.192 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1231.9916ms
+2023-08-28 11:11:38.708 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47
+2023-08-28 11:11:38.709 +07:00 [INF] CORS policy execution successful.
+2023-08-28 11:11:38.709 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Address/GetMasterCCAATTByPostcode
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Content-Length: 47
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:11:38.743 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 11:11:38.746 +07:00 [INF] Route matched with {action = "GetMasterCCAATTByPostcode", controller = "Address"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ResponsePostCode]] GetMasterCCAATTByPostcode(ADSWEBAPP_API.Dto.RequestAddressByPostcode) on controller ADSWEBAPP_API.Controllers.AddressController (ADSWEBAPP_API).
+2023-08-28 11:11:38.753 +07:00 [INF] RequestBody: {
+  "postcode": "10210",
+  "clearCache": true
+}
+2023-08-28 11:11:38.758 +07:00 [INF] API call started...
+2023-08-28 11:11:38.758 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Start | 
+2023-08-28 11:11:38.758 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 10210
+2023-08-28 11:11:38.759 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 10210 | {"Postcode":"10210","ClearCache":true}
+2023-08-28 11:11:43.758 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ResponsePostCode, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions, Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-08-28 11:11:43.768 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 11:11:43.769 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API) in 5022.889ms
+2023-08-28 11:11:43.770 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 11:11:43.771 +07:00 [INF] HTTP POST /ads/Address/GetMasterCCAATTByPostcode responded 200 in 5061.0729 ms
+2023-08-28 11:11:43.771 +07:00 [INF] ResponseBody: {"loadedFromRedis":false,"data":[{"seq":1,"province":"กรุงเทพมหานคร","district":"ดอนเมือง","subDistrict":"ดอนเมือง"},{"seq":2,"province":"กรุงเทพมหานคร","district":"ดอนเมือง","subDistrict":"สนามบิน"},{"seq":3,"province":"กรุงเทพมหานคร","district":"ดอนเมือง","subDistrict":"สีกัน"},{"seq":4,"province":"กรุงเทพมหานคร","district":"หลักสี่","subDistrict":"ตลาดบางเขน"},{"seq":5,"province":"กรุงเทพมหานคร","district":"หลักสี่","subDistrict":"ทุ่งสองห้อง"}],"options":{"absoluteExpiration":"2023-08-28T11:16:43.7505367+07:00","absoluteExpirationRelativeToNow":null,"slidingExpiration":"00:03:00"}}
+2023-08-28 11:11:43.772 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47 - 200 - application/json;+charset=utf-8 5064.5056ms
+2023-08-28 11:22:06.539 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 11:22:06.637 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 11:22:06.645 +07:00 [INF] Hosting environment: Development
+2023-08-28 11:22:06.646 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 11:22:06.682 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 11:22:06.911 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 230.9653ms
+2023-08-28 11:22:06.913 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 11:22:06.923 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.3299ms
+2023-08-28 11:22:06.932 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 11:22:06.960 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.4568ms
+2023-08-28 11:22:07.021 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 11:22:07.158 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 136.4213ms
+2023-08-28 11:22:38.158 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=1 - -
+2023-08-28 11:22:38.169 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /ads/master/GetProvinceAll
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:22:38.234 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-28 11:22:38.241 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-08-28 11:22:38.243 +07:00 [INF] HTTP GET /ads/master/GetProvinceAll responded 401 in 70.9475 ms
+2023-08-28 11:22:38.246 +07:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2023-08-28 11:22:38.247 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=1 - - - 401 - - 91.9502ms
+2023-08-28 11:22:53.553 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 11:22:53.556 +07:00 [INF] CORS policy execution successful.
+2023-08-28 11:22:53.558 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:22:53.562 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 11:22:53.573 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 11:22:53.682 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 11:22:53.690 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 11:22:53.690 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 11:22:54.116 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 11:22:54.712 +07:00 [INF] Executed DbCommand (63ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 11:22:54.780 +07:00 [INF] Authen Login: | End | test
+2023-08-28 11:22:54.866 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 11:22:54.873 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 11:22:54.876 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1299.8976ms
+2023-08-28 11:22:54.876 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 11:22:54.876 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1318.0463 ms
+2023-08-28 11:22:54.877 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6Ijk0ZWU4ZWViLWE2YzgtNGVmMi1iYzFiLTM2MGY5NzQyZWIwMiIsImV4cCI6MTY5MzI4Mjk3NH0.FOVDOGObqzaSpnJHW_HwnhufT0n6-U6Af5G0C5PJsp4","expiration":"2023-08-29T04:22:54Z"}
+2023-08-28 11:22:54.882 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1328.8799ms
+2023-08-28 11:23:12.434 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=1 - -
+2023-08-28 11:23:12.438 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /ads/master/GetProvinceAll
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 11:23:12.468 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 11:23:12.473 +07:00 [INF] Route matched with {action = "GetProvinceAll", controller = "Master"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ProvinceData]] GetProvinceAll(Int32) on controller ADSWEBAPP_API.Controllers.MasterController (ADSWEBAPP_API).
+2023-08-28 11:23:12.482 +07:00 [INF] Requested: GetProvinceAll | Process | 1
+2023-08-28 11:23:12.618 +07:00 [INF] Executed DbCommand (44ms) [Parameters=[:langId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."PROVINCE_NAME" "Province", "a"."PROVINCE_CODE" "ProvinceCode", "a"."PROVINCE_ABBR" "ProvinceAbbr", "a"."POSTCODE_PROVINCE_PREFIX" "PostcodeProvincePrefix", "a"."THP_REGION_ID" "ThpRegionId", "a"."POSTCODE" "Postcode", "a"."REGION_NAME_4" "RegionName4", "a"."REGION_NAME_6" "RegionName6", "a"."REGION_TAT" "RegionTat", "a"."BANGKOK_VICINITY" "BangkokVicinity"
+FROM "ADS_PROVINCE_MASTER" "a"
+WHERE (((((("a"."INACTIVE" <> 1) OR ("a"."INACTIVE" IS NULL))) AND ("a"."EXPIRY_DATE" IS NULL))) AND ("a"."LANG_ID" = :langId_0))
+ORDER BY "a"."PROVINCE_CODE", "a"."LANG_ID"
+2023-08-28 11:23:12.627 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ProvinceData, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-28 11:23:12.630 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 11:23:12.631 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API) in 158.4765ms
+2023-08-28 11:23:12.632 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 11:23:12.632 +07:00 [INF] HTTP GET /ads/master/GetProvinceAll responded 200 in 193.4864 ms
+2023-08-28 11:23:12.633 +07:00 [INF] ResponseBody: [{"province":"กรุงเทพมหานคร","provinceCode":10,"provinceAbbr":"กท","postcodeProvincePrefix":10,"thpRegionId":30,"postcode":"10000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"สมุทรปราการ","provinceCode":11,"provinceAbbr":"สป","postcodeProvincePrefix":10,"thpRegionId":24,"postcode":"10270","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"นนทบุรี","provinceCode":12,"provinceAbbr":"นบ","postcodeProvincePrefix":11,"thpRegionId":21,"postcode":"11000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"ปทุมธานี","provinceCode":13,"provinceAbbr":"ปท","postcodeProvincePrefix":12,"thpRegionId":22,"postcode":"12000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"พระนครศรีอยุธยา","provinceCode":14,"provinceAbbr":"อย","postcodeProvincePrefix":13,"thpRegionId":1,"postcode":"13000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"อ่างทอง","provinceCode":15,"provinceAbbr":"อท","postcodeProvincePrefix":14,"thpRegionId":1,"postcode":"14000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ลพบุรี","provinceCode":16,"provinceAbbr":"ลบ","postcodeProvincePrefix":15,"thpRegionId":1,"postcode":"15000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สิงห์บุรี","provinceCode":17,"provinceAbbr":"สห","postcodeProvincePrefix":16,"thpRegionId":1,"postcode":"16000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชัยนาท","provinceCode":18,"provinceAbbr":"ชน","postcodeProvincePrefix":17,"thpRegionId":1,"postcode":"17000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สระบุรี","provinceCode":19,"provinceAbbr":"สบ","postcodeProvincePrefix":18,"thpRegionId":1,"postcode":"18000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชลบุรี","provinceCode":20,"provinceAbbr":"ชบ","postcodeProvincePrefix":20,"thpRegionId":2,"postcode":"20000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ระยอง","provinceCode":21,"provinceAbbr":"รย","postcodeProvincePrefix":21,"thpRegionId":2,"postcode":"21000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"จันทบุรี","provinceCode":22,"provinceAbbr":"จบ","postcodeProvincePrefix":22,"thpRegionId":2,"postcode":"22000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ตราด","provinceCode":23,"provinceAbbr":"ตร","postcodeProvincePrefix":23,"thpRegionId":2,"postcode":"23000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ฉะเชิงเทรา","provinceCode":24,"provinceAbbr":"ฉช","postcodeProvincePrefix":24,"thpRegionId":2,"postcode":"24000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ปราจีนบุรี","provinceCode":25,"provinceAbbr":"ปจ","postcodeProvincePrefix":25,"thpRegionId":2,"postcode":"25000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครนายก","provinceCode":26,"provinceAbbr":"นย","postcodeProvincePrefix":26,"thpRegionId":2,"postcode":"26000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สระแก้ว","provinceCode":27,"provinceAbbr":"สก","postcodeProvincePrefix":27,"thpRegionId":2,"postcode":"27000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครราชสีมา","provinceCode":30,"provinceAbbr":"นม","postcodeProvincePrefix":30,"thpRegionId":3,"postcode":"30000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"บุรีรัมย์","provinceCode":31,"provinceAbbr":"บร","postcodeProvincePrefix":31,"thpRegionId":3,"postcode":"31000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุรินทร์","provinceCode":32,"provinceAbbr":"สร","postcodeProvincePrefix":32,"thpRegionId":3,"postcode":"32000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ศรีสะเกษ","provinceCode":33,"provinceAbbr":"ศก","postcodeProvincePrefix":33,"thpRegionId":10,"postcode":"33000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุบลราชธานี","provinceCode":34,"provinceAbbr":"อบ","postcodeProvincePrefix":34,"thpRegionId":10,"postcode":"34000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ยโสธร","provinceCode":35,"provinceAbbr":"ยส","postcodeProvincePrefix":35,"thpRegionId":10,"postcode":"35000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชัยภูมิ","provinceCode":36,"provinceAbbr":"ชย","postcodeProvincePrefix":36,"thpRegionId":3,"postcode":"36000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อำนาจเจริญ","provinceCode":37,"provinceAbbr":"อจ","postcodeProvincePrefix":37,"thpRegionId":10,"postcode":"37000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"บึงกาฬ","provinceCode":38,"provinceAbbr":"บก","postcodeProvincePrefix":38,"thpRegionId":4,"postcode":"38000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"หนองบัวลำภู","provinceCode":39,"provinceAbbr":"นภ","postcodeProvincePrefix":39,"thpRegionId":4,"postcode":"39000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ขอนแก่น","provinceCode":40,"provinceAbbr":"ขก","postcodeProvincePrefix":40,"thpRegionId":4,"postcode":"40000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุดรธานี","provinceCode":41,"provinceAbbr":"อด","postcodeProvincePrefix":41,"thpRegionId":4,"postcode":"41000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เลย","provinceCode":42,"provinceAbbr":"ลย","postcodeProvincePrefix":42,"thpRegionId":4,"postcode":"42000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"หนองคาย","provinceCode":43,"provinceAbbr":"นค","postcodeProvincePrefix":43,"thpRegionId":4,"postcode":"43000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"มหาสารคาม","provinceCode":44,"provinceAbbr":"มค","postcodeProvincePrefix":44,"thpRegionId":4,"postcode":"44000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ร้อยเอ็ด","provinceCode":45,"provinceAbbr":"รอ","postcodeProvincePrefix":45,"thpRegionId":3,"postcode":"45000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"กาฬสินธุ์","provinceCode":46,"provinceAbbr":"กส","postcodeProvincePrefix":46,"thpRegionId":4,"postcode":"46000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"สกลนคร","provinceCode":47,"provinceAbbr":"สน","postcodeProvincePrefix":47,"thpRegionId":10,"postcode":"47000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครพนม","provinceCode":48,"provinceAbbr":"นพ","postcodeProvincePrefix":48,"thpRegionId":10,"postcode":"48000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"มุกดาหาร","provinceCode":49,"provinceAbbr":"มห","postcodeProvincePrefix":49,"thpRegionId":10,"postcode":"49000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เชียงใหม่","provinceCode":50,"provinceAbbr":"ชม","postcodeProvincePrefix":50,"thpRegionId":5,"postcode":"50000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ลำพูน","provinceCode":51,"provinceAbbr":"ลพ","postcodeProvincePrefix":51,"thpRegionId":5,"postcode":"51000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ลำปาง","provinceCode":52,"provinceAbbr":"ลป","postcodeProvincePrefix":52,"thpRegionId":5,"postcode":"52000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุตรดิตถ์","provinceCode":53,"provinceAbbr":"อต","postcodeProvincePrefix":53,"thpRegionId":5,"postcode":"53000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"แพร่","provinceCode":54,"provinceAbbr":"พร","postcodeProvincePrefix":54,"thpRegionId":5,"postcode":"54000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"น่าน","provinceCode":55,"provinceAbbr":"นน","postcodeProvincePrefix":55,"thpRegionId":5,"postcode":"55000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"พะเยา","provinceCode":56,"provinceAbbr":"พย","postcodeProvincePrefix":56,"thpRegionId":5,"postcode":"56000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เชียงราย","provinceCode":57,"provinceAbbr":"ชร","postcodeProvincePrefix":57,"thpRegionId":5,"postcode":"57000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"แม่ฮ่องสอน","provinceCode":58,"provinceAbbr":"มส","postcodeProvincePrefix":58,"thpRegionId":5,"postcode":"58000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครสวรรค์","provinceCode":60,"provinceAbbr":"นว","postcodeProvincePrefix":60,"thpRegionId":6,"postcode":"60000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุทัยธานี","provinceCode":61,"provinceAbbr":"อน","postcodeProvincePrefix":61,"thpRegionId":6,"postcode":"61000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"กำแพงเพชร","provinceCode":62,"provinceAbbr":"กพ","postcodeProvincePrefix":62,"thpRegionId":6,"postcode":"62000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ตาก","provinceCode":63,"provinceAbbr":"ตก","postcodeProvincePrefix":63,"thpRegionId":6,"postcode":"63000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุโขทัย","provinceCode":64,"provinceAbbr":"สท","postcodeProvincePrefix":64,"thpRegionId":6,"postcode":"64000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"พิษณุโลก","provinceCode":65,"provinceAbbr":"พล","postcodeProvincePrefix":65,"thpRegionId":6,"postcode":"65000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"พิจิตร","provinceCode":66,"provinceAbbr":"พจ","postcodeProvincePrefix":66,"thpRegionId":6,"postcode":"66000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เพชรบูรณ์","provinceCode":67,"provinceAbbr":"พช","postcodeProvincePrefix":67,"thpRegionId":6,"postcode":"67000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ราชบุรี","provinceCode":70,"provinceAbbr":"รบ","postcodeProvincePrefix":70,"thpRegionId":7,"postcode":"70000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"กาญจนบุรี","provinceCode":71,"provinceAbbr":"กจ","postcodeProvincePrefix":71,"thpRegionId":7,"postcode":"71000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุพรรณบุรี","provinceCode":72,"provinceAbbr":"สพ","postcodeProvincePrefix":72,"thpRegionId":7,"postcode":"72000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครปฐม","provinceCode":73,"provinceAbbr":"นฐ","postcodeProvincePrefix":73,"thpRegionId":7,"postcode":"73000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"สมุทรสาคร","provinceCode":74,"provinceAbbr":"สค","postcodeProvincePrefix":74,"thpRegionId":7,"postcode":"74000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"สมุทรสงคราม","provinceCode":75,"provinceAbbr":"สส","postcodeProvincePrefix":75,"thpRegionId":7,"postcode":"75000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"เพชรบุรี","provinceCode":76,"provinceAbbr":"พบ","postcodeProvincePrefix":76,"thpRegionId":7,"postcode":"76000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ประจวบคีรีขันธ์","provinceCode":77,"provinceAbbr":"ปข","postcodeProvincePrefix":77,"thpRegionId":7,"postcode":"77000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครศรีธรรมราช","provinceCode":80,"provinceAbbr":"นศ","postcodeProvincePrefix":80,"thpRegionId":8,"postcode":"80000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"กระบี่","provinceCode":81,"provinceAbbr":"กบ","postcodeProvincePrefix":81,"thpRegionId":8,"postcode":"81000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"พังงา","provinceCode":82,"provinceAbbr":"พง","postcodeProvincePrefix":82,"thpRegionId":8,"postcode":"82000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ภูเก็ต","provinceCode":83,"provinceAbbr":"ภก","postcodeProvincePrefix":83,"thpRegionId":8,"postcode":"83000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุราษฎร์ธานี","provinceCode":84,"provinceAbbr":"สฎ","postcodeProvincePrefix":84,"thpRegionId":8,"postcode":"84000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ระนอง","provinceCode":85,"provinceAbbr":"รน","postcodeProvincePrefix":85,"thpRegionId":8,"postcode":"85000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชุมพร","provinceCode":86,"provinceAbbr":"ชพ","postcodeProvincePrefix":86,"thpRegionId":8,"postcode":"86000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"สงขลา","provinceCode":90,"provinceAbbr":"สข","postcodeProvincePrefix":90,"thpRegionId":9,"postcode":"90000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"สตูล","provinceCode":91,"provinceAbbr":"สต","postcodeProvincePrefix":91,"thpRegionId":9,"postcode":"91000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ตรัง","provinceCode":92,"provinceAbbr":"ตง","postcodeProvincePrefix":92,"thpRegionId":9,"postcode":"92000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"พัทลุง","provinceCode":93,"provinceAbbr":"พท","postcodeProvincePrefix":93,"thpRegionId":9,"postcode":"93000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ปัตตานี","provinceCode":94,"provinceAbbr":"ปน","postcodeProvincePrefix":94,"thpRegionId":9,"postcode":"94000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ยะลา","provinceCode":95,"provinceAbbr":"ยล","postcodeProvincePrefix":95,"thpRegionId":9,"postcode":"95000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"นราธิวาส","provinceCode":96,"provinceAbbr":"นธ","postcodeProvincePrefix":96,"thpRegionId":9,"postcode":"96000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"}]
+2023-08-28 11:23:12.635 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=1 - - - 200 - application/json;+charset=utf-8 200.9805ms
+2023-08-28 13:07:38.513 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 13:07:38.649 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 13:07:38.649 +07:00 [INF] Hosting environment: Development
+2023-08-28 13:07:38.649 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 13:07:38.684 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 13:07:38.925 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 13:07:38.925 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 239.0260ms
+2023-08-28 13:07:38.930 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 13:07:38.932 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 6.2526ms
+2023-08-28 13:07:38.952 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.6140ms
+2023-08-28 13:07:39.022 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 13:07:39.158 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 135.4235ms
+2023-08-28 13:08:05.304 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 13:08:05.316 +07:00 [INF] CORS policy execution successful.
+2023-08-28 13:08:05.323 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 13:08:05.390 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 13:08:05.403 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 13:08:05.526 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 13:08:05.533 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 13:08:05.533 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 13:08:05.970 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 13:08:06.555 +07:00 [INF] Executed DbCommand (62ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 13:08:06.622 +07:00 [INF] Authen Login: | End | test
+2023-08-28 13:08:06.705 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 13:08:06.715 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 13:08:06.718 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1312.783ms
+2023-08-28 13:08:06.719 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 13:08:06.720 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1395.1691 ms
+2023-08-28 13:08:06.720 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6ImFmMzk4NzUyLTdlYmMtNDJjZS1iNzY0LWU5YTNhN2YwYWM5MCIsImV4cCI6MTY5MzI4OTI4Nn0.vMyfwigKKMtPsOUCrtjkAP59t0jb5sllJKk4hfqSi-0","expiration":"2023-08-29T06:08:06Z"}
+2023-08-28 13:08:06.727 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1422.5594ms
+2023-08-28 13:08:30.125 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47
+2023-08-28 13:08:30.126 +07:00 [INF] CORS policy execution successful.
+2023-08-28 13:08:30.126 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Address/GetMasterCCAATTByPostcode
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Content-Length: 47
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 13:08:30.164 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 13:08:30.167 +07:00 [INF] Route matched with {action = "GetMasterCCAATTByPostcode", controller = "Address"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ResponsePostCode]] GetMasterCCAATTByPostcode(ADSWEBAPP_API.Dto.RequestAddressByPostcode) on controller ADSWEBAPP_API.Controllers.AddressController (ADSWEBAPP_API).
+2023-08-28 13:08:30.173 +07:00 [INF] RequestBody: {
+  "postcode": "18000",
+  "clearCache": true
+}
+2023-08-28 13:08:30.178 +07:00 [INF] API call started...
+2023-08-28 13:08:30.178 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Start | 
+2023-08-28 13:08:30.178 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 18000
+2023-08-28 13:08:30.179 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 18000 | {"Postcode":"18000","ClearCache":true}
+2023-08-28 13:08:30.517 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ResponsePostCode, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions, Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-08-28 13:08:30.534 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 13:08:30.535 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API) in 368.5372ms
+2023-08-28 13:08:30.536 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 13:08:30.537 +07:00 [INF] HTTP POST /ads/Address/GetMasterCCAATTByPostcode responded 200 in 410.8184 ms
+2023-08-28 13:08:30.538 +07:00 [INF] ResponseBody: {"loadedFromRedis":false,"data":[{"seq":1,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"บ้านแก้ง"},{"seq":2,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"ผึ้งรวง"},{"seq":3,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"ห้วยบง"},{"seq":4,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"เขาดินพัฒนา"},{"seq":5,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"กุดนกเปล้า"},{"seq":6,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ดาวเรือง"},{"seq":7,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ตลิ่งชัน"},{"seq":8,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ตะกุด"},{"seq":9,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"นาโฉง"},{"seq":10,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ปากข้าวสาร"},{"seq":11,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ปากเพรียว"},{"seq":12,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"หนองปลาไหล"},{"seq":13,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"หนองยาว"},{"seq":14,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"หนองโน"},{"seq":15,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"โคกสว่าง"}],"options":{"absoluteExpiration":"2023-08-28T13:13:30.5068175+07:00","absoluteExpirationRelativeToNow":null,"slidingExpiration":"00:03:00"}}
+2023-08-28 13:08:30.538 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47 - 200 - application/json;+charset=utf-8 413.4746ms
+2023-08-28 13:30:20.680 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 13:30:20.834 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 13:30:20.835 +07:00 [INF] Hosting environment: Development
+2023-08-28 13:30:20.835 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 13:30:20.858 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 13:30:21.119 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 253.2069ms
+2023-08-28 13:30:21.119 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 13:30:21.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 13:30:21.125 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.3728ms
+2023-08-28 13:30:21.152 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.7903ms
+2023-08-28 13:30:21.219 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 13:30:21.331 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 112.3542ms
+2023-08-28 13:30:42.265 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 13:30:42.269 +07:00 [INF] CORS policy execution successful.
+2023-08-28 13:30:42.281 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 13:30:42.348 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 13:30:42.361 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 13:30:42.504 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 13:30:42.515 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 13:30:42.515 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 13:30:42.982 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 13:30:43.599 +07:00 [INF] Executed DbCommand (81ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 13:30:43.683 +07:00 [INF] Authen Login: | End | test
+2023-08-28 13:30:43.779 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 13:30:43.788 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 13:30:43.792 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1428.0963ms
+2023-08-28 13:30:43.793 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 13:30:43.794 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1511.5991 ms
+2023-08-28 13:30:43.795 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6IjhkMmEyMGFjLTVlNTItNDUxYy1hZDkzLThhMWFkNGQyNWVhNyIsImV4cCI6MTY5MzI5MDY0M30.Fy_Tf7qwFh4DwYe-YzdG5poKAyzdD1zz_YNjKdwk1iY","expiration":"2023-08-29T06:30:43Z"}
+2023-08-28 13:30:43.803 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1537.5690ms
+2023-08-28 13:31:03.699 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47
+2023-08-28 13:31:03.700 +07:00 [INF] CORS policy execution successful.
+2023-08-28 13:31:03.700 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Address/GetMasterCCAATTByPostcode
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Content-Length: 47
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 13:31:03.748 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 13:31:03.751 +07:00 [INF] Route matched with {action = "GetMasterCCAATTByPostcode", controller = "Address"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ResponsePostCode]] GetMasterCCAATTByPostcode(ADSWEBAPP_API.Dto.RequestAddressByPostcode) on controller ADSWEBAPP_API.Controllers.AddressController (ADSWEBAPP_API).
+2023-08-28 13:31:03.759 +07:00 [INF] RequestBody: {
+  "postcode": "18000",
+  "clearCache": true
+}
+2023-08-28 13:31:03.765 +07:00 [INF] API call started...
+2023-08-28 13:31:03.766 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Start | 
+2023-08-28 13:31:03.766 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 18000
+2023-08-28 13:31:03.767 +07:00 [INF] Requested: GetMasterCCAATTByPostcode | Process | 18000 | {"Postcode":"18000","ClearCache":true}
+2023-08-28 13:31:04.137 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ResponsePostCode, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions, Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-08-28 13:31:04.154 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 13:31:04.157 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API) in 405.0576ms
+2023-08-28 13:31:04.157 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AddressController.GetMasterCCAATTByPostcode (ADSWEBAPP_API)'
+2023-08-28 13:31:04.160 +07:00 [INF] HTTP POST /ads/Address/GetMasterCCAATTByPostcode responded 200 in 459.4560 ms
+2023-08-28 13:31:04.160 +07:00 [INF] ResponseBody: {"loadedFromRedis":false,"data":[{"seq":1,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"บ้านแก้ง"},{"seq":2,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"ผึ้งรวง"},{"seq":3,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"ห้วยบง"},{"seq":4,"province":"สระบุรี","district":"เฉลิมพระเกียรติ","subDistrict":"เขาดินพัฒนา"},{"seq":5,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"กุดนกเปล้า"},{"seq":6,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ดาวเรือง"},{"seq":7,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ตลิ่งชัน"},{"seq":8,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ตะกุด"},{"seq":9,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"นาโฉง"},{"seq":10,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ปากข้าวสาร"},{"seq":11,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"ปากเพรียว"},{"seq":12,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"หนองปลาไหล"},{"seq":13,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"หนองยาว"},{"seq":14,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"หนองโน"},{"seq":15,"province":"สระบุรี","district":"เมืองสระบุรี","subDistrict":"โคกสว่าง"}],"options":{"absoluteExpiration":"2023-08-28T13:36:04.1265643+07:00","absoluteExpirationRelativeToNow":null,"slidingExpiration":"00:03:00"}}
+2023-08-28 13:31:04.161 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Address/GetMasterCCAATTByPostcode application/json 47 - 200 - application/json;+charset=utf-8 461.7771ms
+2023-08-28 14:00:24.217 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 14:00:24.367 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 14:00:24.370 +07:00 [INF] Hosting environment: Development
+2023-08-28 14:00:24.370 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 14:00:24.387 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 14:00:24.586 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 14:00:24.587 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 197.1107ms
+2023-08-28 14:00:24.598 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 14:00:24.601 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 6.0369ms
+2023-08-28 14:00:24.617 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3393ms
+2023-08-28 14:00:24.696 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 14:00:24.806 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 109.3259ms
+2023-08-28 14:00:40.110 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 14:00:40.113 +07:00 [INF] CORS policy execution successful.
+2023-08-28 14:00:40.121 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 14:00:40.175 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 14:00:40.185 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 14:00:40.299 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 14:00:40.310 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 14:00:40.310 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 14:00:40.714 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 14:00:41.499 +07:00 [INF] Executed DbCommand (62ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 14:00:41.573 +07:00 [INF] Authen Login: | End | test
+2023-08-28 14:00:41.649 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 14:00:41.656 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 14:00:41.660 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1472.3692ms
+2023-08-28 14:00:41.660 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 14:00:41.661 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1537.5622 ms
+2023-08-28 14:00:41.662 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6ImMzYzY3MWFmLTBlM2UtNGQyYi05MGUwLTFkODZiYTAxNTFkYiIsImV4cCI6MTY5MzI5MjQ0MX0._Eo10tCZhYvHEmUyB8JdVRWy6KxBuNax_q2wxCAm5EU","expiration":"2023-08-29T07:00:41Z"}
+2023-08-28 14:00:41.668 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1558.8225ms
+2023-08-28 14:00:59.557 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=2 - -
+2023-08-28 14:00:59.559 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /ads/master/GetProvinceAll
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 14:00:59.595 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 14:00:59.600 +07:00 [INF] Route matched with {action = "GetProvinceAll", controller = "Master"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ProvinceData]] GetProvinceAll(Int32) on controller ADSWEBAPP_API.Controllers.MasterController (ADSWEBAPP_API).
+2023-08-28 14:00:59.612 +07:00 [INF] Requested: GetProvinceAll | Process | 2
+2023-08-28 14:00:59.730 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[:langId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."PROVINCE_NAME" "Province", "a"."PROVINCE_CODE" "ProvinceCode", "a"."PROVINCE_ABBR" "ProvinceAbbr", "a"."POSTCODE_PROVINCE_PREFIX" "PostcodeProvincePrefix", "a"."THP_REGION_ID" "ThpRegionId", "a"."POSTCODE" "Postcode", "a"."REGION_NAME_4" "RegionName4", "a"."REGION_NAME_6" "RegionName6", "a"."REGION_TAT" "RegionTat", "a"."BANGKOK_VICINITY" "BangkokVicinity"
+FROM "ADS_PROVINCE_MASTER" "a"
+WHERE (((((("a"."INACTIVE" <> 1) OR ("a"."INACTIVE" IS NULL))) AND ("a"."EXPIRY_DATE" IS NULL))) AND ("a"."LANG_ID" = :langId_0))
+ORDER BY "a"."PROVINCE_CODE", "a"."LANG_ID"
+2023-08-28 14:00:59.756 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ProvinceData, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-28 14:00:59.760 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 14:00:59.760 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API) in 159.8379ms
+2023-08-28 14:00:59.760 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 14:00:59.760 +07:00 [INF] HTTP GET /ads/master/GetProvinceAll responded 200 in 200.9702 ms
+2023-08-28 14:00:59.760 +07:00 [INF] ResponseBody: [{"province":"Bangkok","provinceCode":10,"provinceAbbr":"BK","postcodeProvincePrefix":10,"thpRegionId":30,"postcode":"10000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Prakan","provinceCode":11,"provinceAbbr":"SP","postcodeProvincePrefix":10,"thpRegionId":24,"postcode":"10270","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Nonthaburi","provinceCode":12,"provinceAbbr":"NB","postcodeProvincePrefix":11,"thpRegionId":21,"postcode":"11000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Pathum Thani","provinceCode":13,"provinceAbbr":"PT","postcodeProvincePrefix":12,"thpRegionId":22,"postcode":"12000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Phra Nakhon Si Ayutthaya","provinceCode":14,"provinceAbbr":"AY","postcodeProvincePrefix":13,"thpRegionId":1,"postcode":"13000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Ang Thong","provinceCode":15,"provinceAbbr":"AT","postcodeProvincePrefix":14,"thpRegionId":1,"postcode":"14000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Lop Buri","provinceCode":16,"provinceAbbr":"LB","postcodeProvincePrefix":15,"thpRegionId":1,"postcode":"15000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sing Buri","provinceCode":17,"provinceAbbr":"SH","postcodeProvincePrefix":16,"thpRegionId":1,"postcode":"16000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Chai Nat","provinceCode":18,"provinceAbbr":"CN","postcodeProvincePrefix":17,"thpRegionId":1,"postcode":"17000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Saraburi","provinceCode":19,"provinceAbbr":"SB","postcodeProvincePrefix":18,"thpRegionId":1,"postcode":"18000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Chon Buri","provinceCode":20,"provinceAbbr":"CB","postcodeProvincePrefix":20,"thpRegionId":2,"postcode":"20000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Rayong","provinceCode":21,"provinceAbbr":"RY","postcodeProvincePrefix":21,"thpRegionId":2,"postcode":"21000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Chanthaburi","provinceCode":22,"provinceAbbr":"JB","postcodeProvincePrefix":22,"thpRegionId":2,"postcode":"22000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Trat","provinceCode":23,"provinceAbbr":"TD","postcodeProvincePrefix":23,"thpRegionId":2,"postcode":"23000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Chachoengsao","provinceCode":24,"provinceAbbr":"CC","postcodeProvincePrefix":24,"thpRegionId":2,"postcode":"24000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Prachin Buri","provinceCode":25,"provinceAbbr":"PA","postcodeProvincePrefix":25,"thpRegionId":2,"postcode":"25000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Nayok","provinceCode":26,"provinceAbbr":"NY","postcodeProvincePrefix":26,"thpRegionId":2,"postcode":"26000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sa Kaeo","provinceCode":27,"provinceAbbr":"SO","postcodeProvincePrefix":27,"thpRegionId":2,"postcode":"27000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Ratchasima","provinceCode":30,"provinceAbbr":"NM","postcodeProvincePrefix":30,"thpRegionId":3,"postcode":"30000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Buri Ram","provinceCode":31,"provinceAbbr":"BR","postcodeProvincePrefix":31,"thpRegionId":3,"postcode":"31000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Surin","provinceCode":32,"provinceAbbr":"SR","postcodeProvincePrefix":32,"thpRegionId":3,"postcode":"32000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Si Sa Ket","provinceCode":33,"provinceAbbr":"SI","postcodeProvincePrefix":33,"thpRegionId":10,"postcode":"33000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Ubon Ratchathani","provinceCode":34,"provinceAbbr":"UB","postcodeProvincePrefix":34,"thpRegionId":10,"postcode":"34000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Yasothon","provinceCode":35,"provinceAbbr":"YT","postcodeProvincePrefix":35,"thpRegionId":10,"postcode":"35000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Chaiyaphum","provinceCode":36,"provinceAbbr":"CY","postcodeProvincePrefix":36,"thpRegionId":3,"postcode":"36000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Amnat Charoen","provinceCode":37,"provinceAbbr":"AC","postcodeProvincePrefix":37,"thpRegionId":10,"postcode":"37000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Bueng Kan","provinceCode":38,"provinceAbbr":"BN","postcodeProvincePrefix":38,"thpRegionId":4,"postcode":"38000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nong Bua Lam Phu","provinceCode":39,"provinceAbbr":"NL","postcodeProvincePrefix":39,"thpRegionId":4,"postcode":"39000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Khon Kaen","provinceCode":40,"provinceAbbr":"KK","postcodeProvincePrefix":40,"thpRegionId":4,"postcode":"40000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Udon Thani","provinceCode":41,"provinceAbbr":"UD","postcodeProvincePrefix":41,"thpRegionId":4,"postcode":"41000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Loei","provinceCode":42,"provinceAbbr":"LY","postcodeProvincePrefix":42,"thpRegionId":4,"postcode":"42000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nong Khai","provinceCode":43,"provinceAbbr":"NK","postcodeProvincePrefix":43,"thpRegionId":4,"postcode":"43000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Maha Sarakham","provinceCode":44,"provinceAbbr":"MK","postcodeProvincePrefix":44,"thpRegionId":4,"postcode":"44000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Roi Et","provinceCode":45,"provinceAbbr":"RE","postcodeProvincePrefix":45,"thpRegionId":3,"postcode":"45000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Kalasin","provinceCode":46,"provinceAbbr":"KS","postcodeProvincePrefix":46,"thpRegionId":4,"postcode":"46000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Sakon Nakhon","provinceCode":47,"provinceAbbr":"SN","postcodeProvincePrefix":47,"thpRegionId":10,"postcode":"47000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Phanom","provinceCode":48,"provinceAbbr":"NP","postcodeProvincePrefix":48,"thpRegionId":10,"postcode":"48000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Mukdahan","provinceCode":49,"provinceAbbr":"MD","postcodeProvincePrefix":49,"thpRegionId":10,"postcode":"49000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Chiang Mai","provinceCode":50,"provinceAbbr":"CM","postcodeProvincePrefix":50,"thpRegionId":5,"postcode":"50000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Lamphun","provinceCode":51,"provinceAbbr":"LN","postcodeProvincePrefix":51,"thpRegionId":5,"postcode":"51000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Lampang","provinceCode":52,"provinceAbbr":"LP","postcodeProvincePrefix":52,"thpRegionId":5,"postcode":"52000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Uttaradit","provinceCode":53,"provinceAbbr":"UT","postcodeProvincePrefix":53,"thpRegionId":5,"postcode":"53000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phrae","provinceCode":54,"provinceAbbr":"PR","postcodeProvincePrefix":54,"thpRegionId":5,"postcode":"54000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Nan","provinceCode":55,"provinceAbbr":"NA","postcodeProvincePrefix":55,"thpRegionId":5,"postcode":"55000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phayao","provinceCode":56,"provinceAbbr":"PY","postcodeProvincePrefix":56,"thpRegionId":5,"postcode":"56000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Chiang Rai","provinceCode":57,"provinceAbbr":"CR","postcodeProvincePrefix":57,"thpRegionId":5,"postcode":"57000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Mae Hong Son","provinceCode":58,"provinceAbbr":"MS","postcodeProvincePrefix":58,"thpRegionId":5,"postcode":"58000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Sawan","provinceCode":60,"provinceAbbr":"NW","postcodeProvincePrefix":60,"thpRegionId":6,"postcode":"60000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Uthai Thani","provinceCode":61,"provinceAbbr":"UN","postcodeProvincePrefix":61,"thpRegionId":6,"postcode":"61000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Kamphaeng Phet","provinceCode":62,"provinceAbbr":"KP","postcodeProvincePrefix":62,"thpRegionId":6,"postcode":"62000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Tak","provinceCode":63,"provinceAbbr":"TK","postcodeProvincePrefix":63,"thpRegionId":6,"postcode":"63000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sukhothai","provinceCode":64,"provinceAbbr":"SY","postcodeProvincePrefix":64,"thpRegionId":6,"postcode":"64000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phitsanulok","provinceCode":65,"provinceAbbr":"PL","postcodeProvincePrefix":65,"thpRegionId":6,"postcode":"65000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phichit","provinceCode":66,"provinceAbbr":"PI","postcodeProvincePrefix":66,"thpRegionId":6,"postcode":"66000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phetchabun","provinceCode":67,"provinceAbbr":"PC","postcodeProvincePrefix":67,"thpRegionId":6,"postcode":"67000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Ratchaburi","provinceCode":70,"provinceAbbr":"RB","postcodeProvincePrefix":70,"thpRegionId":7,"postcode":"70000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Kanchanaburi","provinceCode":71,"provinceAbbr":"KJ","postcodeProvincePrefix":71,"thpRegionId":7,"postcode":"71000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Suphan Buri","provinceCode":72,"provinceAbbr":"SU","postcodeProvincePrefix":72,"thpRegionId":7,"postcode":"72000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Nakhon Pathom","provinceCode":73,"provinceAbbr":"NT","postcodeProvincePrefix":73,"thpRegionId":7,"postcode":"73000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Sakhon","provinceCode":74,"provinceAbbr":"SA","postcodeProvincePrefix":74,"thpRegionId":7,"postcode":"74000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Songkhram","provinceCode":75,"provinceAbbr":"SS","postcodeProvincePrefix":75,"thpRegionId":7,"postcode":"75000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Phetchaburi","provinceCode":76,"provinceAbbr":"PB","postcodeProvincePrefix":76,"thpRegionId":7,"postcode":"76000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Prachuap Khiri Khan","provinceCode":77,"provinceAbbr":"PJ","postcodeProvincePrefix":77,"thpRegionId":7,"postcode":"77000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Nakhon Si Thammarat","provinceCode":80,"provinceAbbr":"NS","postcodeProvincePrefix":80,"thpRegionId":8,"postcode":"80000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Krabi","provinceCode":81,"provinceAbbr":"KB","postcodeProvincePrefix":81,"thpRegionId":8,"postcode":"81000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phang-nga","provinceCode":82,"provinceAbbr":"PG","postcodeProvincePrefix":82,"thpRegionId":8,"postcode":"82000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phuket","provinceCode":83,"provinceAbbr":"PK","postcodeProvincePrefix":83,"thpRegionId":8,"postcode":"83000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Surat Thani","provinceCode":84,"provinceAbbr":"SD","postcodeProvincePrefix":84,"thpRegionId":8,"postcode":"84000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Ranong","provinceCode":85,"provinceAbbr":"RN","postcodeProvincePrefix":85,"thpRegionId":8,"postcode":"85000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Chumphon","provinceCode":86,"provinceAbbr":"CP","postcodeProvincePrefix":86,"thpRegionId":8,"postcode":"86000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Songkhla","provinceCode":90,"provinceAbbr":"SK","postcodeProvincePrefix":90,"thpRegionId":9,"postcode":"90000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Satun","provinceCode":91,"provinceAbbr":"ST","postcodeProvincePrefix":91,"thpRegionId":9,"postcode":"91000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Trang","provinceCode":92,"provinceAbbr":"TR","postcodeProvincePrefix":92,"thpRegionId":9,"postcode":"92000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phatthalung","provinceCode":93,"provinceAbbr":"PU","postcodeProvincePrefix":93,"thpRegionId":9,"postcode":"93000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Pattani","provinceCode":94,"provinceAbbr":"PN","postcodeProvincePrefix":94,"thpRegionId":9,"postcode":"94000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Yala","provinceCode":95,"provinceAbbr":"YL","postcodeProvincePrefix":95,"thpRegionId":9,"postcode":"95000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Narathiwat","provinceCode":96,"provinceAbbr":"NR","postcodeProvincePrefix":96,"thpRegionId":9,"postcode":"96000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"}]
+2023-08-28 14:00:59.761 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=2 - - - 200 - application/json;+charset=utf-8 204.2151ms
+2023-08-28 15:02:40.744 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 15:02:40.847 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 15:02:40.851 +07:00 [INF] Hosting environment: Development
+2023-08-28 15:02:40.852 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 15:02:40.870 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 15:02:41.090 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 15:02:41.095 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 223.0602ms
+2023-08-28 15:02:41.096 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.8717ms
+2023-08-28 15:02:41.113 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 15:02:41.139 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.3256ms
+2023-08-28 15:02:41.193 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 15:02:41.321 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 127.1460ms
+2023-08-28 15:05:25.696 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 15:05:25.709 +07:00 [INF] CORS policy execution successful.
+2023-08-28 15:05:25.713 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 15:05:25.770 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 15:05:25.787 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 15:05:25.888 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 15:05:25.895 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 15:05:25.895 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 15:05:26.323 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 15:05:27.287 +07:00 [INF] Executed DbCommand (183ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 15:05:27.350 +07:00 [INF] Authen Login: | End | test
+2023-08-28 15:05:27.423 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 15:05:27.431 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 15:05:27.435 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1644.788ms
+2023-08-28 15:05:27.435 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 15:05:27.436 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1721.1189 ms
+2023-08-28 15:05:27.437 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6Ijk1OGJkNWQ1LTZmMDAtNDVmNi04OTE4LWZjMWIwMDJhMTc4MyIsImV4cCI6MTY5MzI5NjMyN30.JXQp5LfDKG8AOW_4xaJaQS128GUOkib5JwGlVQgzUSU","expiration":"2023-08-29T08:05:27Z"}
+2023-08-28 15:05:27.443 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1747.3005ms
+2023-08-28 15:05:45.855 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=1 - -
+2023-08-28 15:05:45.856 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /ads/master/GetProvinceAll
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 15:05:45.906 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 15:05:45.910 +07:00 [INF] Route matched with {action = "GetProvinceAll", controller = "Master"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ProvinceData]] GetProvinceAll(Int32) on controller ADSWEBAPP_API.Controllers.MasterController (ADSWEBAPP_API).
+2023-08-28 15:05:45.919 +07:00 [INF] Requested: GetProvinceAll | Process | 1
+2023-08-28 15:05:46.207 +07:00 [INF] Executed DbCommand (193ms) [Parameters=[:langId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."PROVINCE_NAME" "Province", "a"."PROVINCE_CODE" "ProvinceCode", "a"."PROVINCE_ABBR" "ProvinceAbbr", "a"."POSTCODE_PROVINCE_PREFIX" "PostcodeProvincePrefix", "a"."THP_REGION_ID" "ThpRegionId", "a"."POSTCODE" "Postcode", "a"."REGION_NAME_4" "RegionName4", "a"."REGION_NAME_6" "RegionName6", "a"."REGION_TAT" "RegionTat", "a"."BANGKOK_VICINITY" "BangkokVicinity"
+FROM "ADS_PROVINCE_MASTER" "a"
+WHERE (((((("a"."INACTIVE" <> 1) OR ("a"."INACTIVE" IS NULL))) AND ("a"."EXPIRY_DATE" IS NULL))) AND ("a"."LANG_ID" = :langId_0))
+ORDER BY "a"."PROVINCE_CODE", "a"."LANG_ID"
+2023-08-28 15:05:46.219 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ProvinceData, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-28 15:05:46.222 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 15:05:46.223 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API) in 313.347ms
+2023-08-28 15:05:46.223 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 15:05:46.223 +07:00 [INF] HTTP GET /ads/master/GetProvinceAll responded 200 in 367.0301 ms
+2023-08-28 15:05:46.224 +07:00 [INF] ResponseBody: [{"province":"กรุงเทพมหานคร","provinceCode":10,"provinceAbbr":"กท","postcodeProvincePrefix":10,"thpRegionId":30,"postcode":"10000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"สมุทรปราการ","provinceCode":11,"provinceAbbr":"สป","postcodeProvincePrefix":10,"thpRegionId":24,"postcode":"10270","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"นนทบุรี","provinceCode":12,"provinceAbbr":"นบ","postcodeProvincePrefix":11,"thpRegionId":21,"postcode":"11000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"ปทุมธานี","provinceCode":13,"provinceAbbr":"ปท","postcodeProvincePrefix":12,"thpRegionId":22,"postcode":"12000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"พระนครศรีอยุธยา","provinceCode":14,"provinceAbbr":"อย","postcodeProvincePrefix":13,"thpRegionId":1,"postcode":"13000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"อ่างทอง","provinceCode":15,"provinceAbbr":"อท","postcodeProvincePrefix":14,"thpRegionId":1,"postcode":"14000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ลพบุรี","provinceCode":16,"provinceAbbr":"ลบ","postcodeProvincePrefix":15,"thpRegionId":1,"postcode":"15000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สิงห์บุรี","provinceCode":17,"provinceAbbr":"สห","postcodeProvincePrefix":16,"thpRegionId":1,"postcode":"16000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชัยนาท","provinceCode":18,"provinceAbbr":"ชน","postcodeProvincePrefix":17,"thpRegionId":1,"postcode":"17000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สระบุรี","provinceCode":19,"provinceAbbr":"สบ","postcodeProvincePrefix":18,"thpRegionId":1,"postcode":"18000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชลบุรี","provinceCode":20,"provinceAbbr":"ชบ","postcodeProvincePrefix":20,"thpRegionId":2,"postcode":"20000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ระยอง","provinceCode":21,"provinceAbbr":"รย","postcodeProvincePrefix":21,"thpRegionId":2,"postcode":"21000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"จันทบุรี","provinceCode":22,"provinceAbbr":"จบ","postcodeProvincePrefix":22,"thpRegionId":2,"postcode":"22000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ตราด","provinceCode":23,"provinceAbbr":"ตร","postcodeProvincePrefix":23,"thpRegionId":2,"postcode":"23000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ฉะเชิงเทรา","provinceCode":24,"provinceAbbr":"ฉช","postcodeProvincePrefix":24,"thpRegionId":2,"postcode":"24000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"ปราจีนบุรี","provinceCode":25,"provinceAbbr":"ปจ","postcodeProvincePrefix":25,"thpRegionId":2,"postcode":"25000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครนายก","provinceCode":26,"provinceAbbr":"นย","postcodeProvincePrefix":26,"thpRegionId":2,"postcode":"26000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สระแก้ว","provinceCode":27,"provinceAbbr":"สก","postcodeProvincePrefix":27,"thpRegionId":2,"postcode":"27000","regionName4":"ภาคตะวันออก","regionName6":"ภาคกลาง","regionTat":"ภาคตะวันออก","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครราชสีมา","provinceCode":30,"provinceAbbr":"นม","postcodeProvincePrefix":30,"thpRegionId":3,"postcode":"30000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"บุรีรัมย์","provinceCode":31,"provinceAbbr":"บร","postcodeProvincePrefix":31,"thpRegionId":3,"postcode":"31000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุรินทร์","provinceCode":32,"provinceAbbr":"สร","postcodeProvincePrefix":32,"thpRegionId":3,"postcode":"32000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ศรีสะเกษ","provinceCode":33,"provinceAbbr":"ศก","postcodeProvincePrefix":33,"thpRegionId":10,"postcode":"33000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุบลราชธานี","provinceCode":34,"provinceAbbr":"อบ","postcodeProvincePrefix":34,"thpRegionId":10,"postcode":"34000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ยโสธร","provinceCode":35,"provinceAbbr":"ยส","postcodeProvincePrefix":35,"thpRegionId":10,"postcode":"35000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชัยภูมิ","provinceCode":36,"provinceAbbr":"ชย","postcodeProvincePrefix":36,"thpRegionId":3,"postcode":"36000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อำนาจเจริญ","provinceCode":37,"provinceAbbr":"อจ","postcodeProvincePrefix":37,"thpRegionId":10,"postcode":"37000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"บึงกาฬ","provinceCode":38,"provinceAbbr":"บก","postcodeProvincePrefix":38,"thpRegionId":4,"postcode":"38000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"หนองบัวลำภู","provinceCode":39,"provinceAbbr":"นภ","postcodeProvincePrefix":39,"thpRegionId":4,"postcode":"39000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ขอนแก่น","provinceCode":40,"provinceAbbr":"ขก","postcodeProvincePrefix":40,"thpRegionId":4,"postcode":"40000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุดรธานี","provinceCode":41,"provinceAbbr":"อด","postcodeProvincePrefix":41,"thpRegionId":4,"postcode":"41000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เลย","provinceCode":42,"provinceAbbr":"ลย","postcodeProvincePrefix":42,"thpRegionId":4,"postcode":"42000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"หนองคาย","provinceCode":43,"provinceAbbr":"นค","postcodeProvincePrefix":43,"thpRegionId":4,"postcode":"43000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"มหาสารคาม","provinceCode":44,"provinceAbbr":"มค","postcodeProvincePrefix":44,"thpRegionId":4,"postcode":"44000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ร้อยเอ็ด","provinceCode":45,"provinceAbbr":"รอ","postcodeProvincePrefix":45,"thpRegionId":3,"postcode":"45000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"กาฬสินธุ์","provinceCode":46,"provinceAbbr":"กส","postcodeProvincePrefix":46,"thpRegionId":4,"postcode":"46000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"สกลนคร","provinceCode":47,"provinceAbbr":"สน","postcodeProvincePrefix":47,"thpRegionId":10,"postcode":"47000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครพนม","provinceCode":48,"provinceAbbr":"นพ","postcodeProvincePrefix":48,"thpRegionId":10,"postcode":"48000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"มุกดาหาร","provinceCode":49,"provinceAbbr":"มห","postcodeProvincePrefix":49,"thpRegionId":10,"postcode":"49000","regionName4":"ภาคตะวันออกเฉียงเหนือ","regionName6":"ภาคตะวันออกเฉียงเหนือ","regionTat":"ภาคตะวันออกเฉียงเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เชียงใหม่","provinceCode":50,"provinceAbbr":"ชม","postcodeProvincePrefix":50,"thpRegionId":5,"postcode":"50000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ลำพูน","provinceCode":51,"provinceAbbr":"ลพ","postcodeProvincePrefix":51,"thpRegionId":5,"postcode":"51000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ลำปาง","provinceCode":52,"provinceAbbr":"ลป","postcodeProvincePrefix":52,"thpRegionId":5,"postcode":"52000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุตรดิตถ์","provinceCode":53,"provinceAbbr":"อต","postcodeProvincePrefix":53,"thpRegionId":5,"postcode":"53000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"แพร่","provinceCode":54,"provinceAbbr":"พร","postcodeProvincePrefix":54,"thpRegionId":5,"postcode":"54000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"น่าน","provinceCode":55,"provinceAbbr":"นน","postcodeProvincePrefix":55,"thpRegionId":5,"postcode":"55000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"พะเยา","provinceCode":56,"provinceAbbr":"พย","postcodeProvincePrefix":56,"thpRegionId":5,"postcode":"56000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เชียงราย","provinceCode":57,"provinceAbbr":"ชร","postcodeProvincePrefix":57,"thpRegionId":5,"postcode":"57000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"แม่ฮ่องสอน","provinceCode":58,"provinceAbbr":"มส","postcodeProvincePrefix":58,"thpRegionId":5,"postcode":"58000","regionName4":"ภาคเหนือ","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครสวรรค์","provinceCode":60,"provinceAbbr":"นว","postcodeProvincePrefix":60,"thpRegionId":6,"postcode":"60000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"อุทัยธานี","provinceCode":61,"provinceAbbr":"อน","postcodeProvincePrefix":61,"thpRegionId":6,"postcode":"61000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"กำแพงเพชร","provinceCode":62,"provinceAbbr":"กพ","postcodeProvincePrefix":62,"thpRegionId":6,"postcode":"62000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ตาก","provinceCode":63,"provinceAbbr":"ตก","postcodeProvincePrefix":63,"thpRegionId":6,"postcode":"63000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุโขทัย","provinceCode":64,"provinceAbbr":"สท","postcodeProvincePrefix":64,"thpRegionId":6,"postcode":"64000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"พิษณุโลก","provinceCode":65,"provinceAbbr":"พล","postcodeProvincePrefix":65,"thpRegionId":6,"postcode":"65000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"พิจิตร","provinceCode":66,"provinceAbbr":"พจ","postcodeProvincePrefix":66,"thpRegionId":6,"postcode":"66000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"เพชรบูรณ์","provinceCode":67,"provinceAbbr":"พช","postcodeProvincePrefix":67,"thpRegionId":6,"postcode":"67000","regionName4":"ภาคกลาง","regionName6":"ภาคเหนือ","regionTat":"ภาคเหนือ","bangkokVicinity":"ต่างจังหวัด"},{"province":"ราชบุรี","provinceCode":70,"provinceAbbr":"รบ","postcodeProvincePrefix":70,"thpRegionId":7,"postcode":"70000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"กาญจนบุรี","provinceCode":71,"provinceAbbr":"กจ","postcodeProvincePrefix":71,"thpRegionId":7,"postcode":"71000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุพรรณบุรี","provinceCode":72,"provinceAbbr":"สพ","postcodeProvincePrefix":72,"thpRegionId":7,"postcode":"72000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครปฐม","provinceCode":73,"provinceAbbr":"นฐ","postcodeProvincePrefix":73,"thpRegionId":7,"postcode":"73000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"สมุทรสาคร","provinceCode":74,"provinceAbbr":"สค","postcodeProvincePrefix":74,"thpRegionId":7,"postcode":"74000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"กรุงเทพมหานครและปริมณฑล"},{"province":"สมุทรสงคราม","provinceCode":75,"provinceAbbr":"สส","postcodeProvincePrefix":75,"thpRegionId":7,"postcode":"75000","regionName4":"ภาคกลาง","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"เพชรบุรี","provinceCode":76,"provinceAbbr":"พบ","postcodeProvincePrefix":76,"thpRegionId":7,"postcode":"76000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"ประจวบคีรีขันธ์","provinceCode":77,"provinceAbbr":"ปข","postcodeProvincePrefix":77,"thpRegionId":7,"postcode":"77000","regionName4":"ภาคตะวันตก","regionName6":"ภาคกลาง","regionTat":"ภาคกลาง","bangkokVicinity":"ต่างจังหวัด"},{"province":"นครศรีธรรมราช","provinceCode":80,"provinceAbbr":"นศ","postcodeProvincePrefix":80,"thpRegionId":8,"postcode":"80000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"กระบี่","provinceCode":81,"provinceAbbr":"กบ","postcodeProvincePrefix":81,"thpRegionId":8,"postcode":"81000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"พังงา","provinceCode":82,"provinceAbbr":"พง","postcodeProvincePrefix":82,"thpRegionId":8,"postcode":"82000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ภูเก็ต","provinceCode":83,"provinceAbbr":"ภก","postcodeProvincePrefix":83,"thpRegionId":8,"postcode":"83000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"สุราษฎร์ธานี","provinceCode":84,"provinceAbbr":"สฎ","postcodeProvincePrefix":84,"thpRegionId":8,"postcode":"84000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ระนอง","provinceCode":85,"provinceAbbr":"รน","postcodeProvincePrefix":85,"thpRegionId":8,"postcode":"85000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ชุมพร","provinceCode":86,"provinceAbbr":"ชพ","postcodeProvincePrefix":86,"thpRegionId":8,"postcode":"86000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"สงขลา","provinceCode":90,"provinceAbbr":"สข","postcodeProvincePrefix":90,"thpRegionId":9,"postcode":"90000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"สตูล","provinceCode":91,"provinceAbbr":"สต","postcodeProvincePrefix":91,"thpRegionId":9,"postcode":"91000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ตรัง","provinceCode":92,"provinceAbbr":"ตง","postcodeProvincePrefix":92,"thpRegionId":9,"postcode":"92000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"พัทลุง","provinceCode":93,"provinceAbbr":"พท","postcodeProvincePrefix":93,"thpRegionId":9,"postcode":"93000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ปัตตานี","provinceCode":94,"provinceAbbr":"ปน","postcodeProvincePrefix":94,"thpRegionId":9,"postcode":"94000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"ยะลา","provinceCode":95,"provinceAbbr":"ยล","postcodeProvincePrefix":95,"thpRegionId":9,"postcode":"95000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"},{"province":"นราธิวาส","provinceCode":96,"provinceAbbr":"นธ","postcodeProvincePrefix":96,"thpRegionId":9,"postcode":"96000","regionName4":"ภาคใต้","regionName6":"ภาคใต้","regionTat":"ภาคใต้","bangkokVicinity":"ต่างจังหวัด"}]
+2023-08-28 15:05:46.226 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=1 - - - 200 - application/json;+charset=utf-8 371.0271ms
+2023-08-28 15:16:48.969 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 15:16:49.123 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 15:16:49.123 +07:00 [INF] Hosting environment: Development
+2023-08-28 15:16:49.123 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 15:16:49.151 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 15:16:49.337 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 186.7393ms
+2023-08-28 15:16:49.337 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 15:16:49.341 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.2322ms
+2023-08-28 15:16:49.352 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 15:16:49.371 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.4182ms
+2023-08-28 15:16:49.456 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 15:16:49.565 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 108.7083ms
+2023-08-28 15:16:59.399 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 15:16:59.405 +07:00 [INF] CORS policy execution successful.
+2023-08-28 15:16:59.410 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 15:16:59.466 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 15:16:59.476 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 15:16:59.584 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 15:16:59.591 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 15:16:59.591 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 15:17:00.087 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 15:17:00.657 +07:00 [INF] Executed DbCommand (60ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 15:17:00.725 +07:00 [INF] Authen Login: | End | test
+2023-08-28 15:17:00.802 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 15:17:00.812 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 15:17:00.817 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1337.1556ms
+2023-08-28 15:17:00.818 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 15:17:00.819 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1406.7769 ms
+2023-08-28 15:17:00.820 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6IjUzNzVkMzY1LTk5ZDEtNGNjNi1iZDNhLWU2NTNjOWNlNGJmZSIsImV4cCI6MTY5MzI5NzAyMH0.QjvpiccN-czt55ywDiDpCG8Uc9gHx4xELMo4F4l8uzM","expiration":"2023-08-29T08:17:00Z"}
+2023-08-28 15:17:00.828 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1429.3884ms
+2023-08-28 16:14:45.570 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 16:14:45.959 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:14:45.959 +07:00 [INF] Hosting environment: Development
+2023-08-28 16:14:45.960 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 16:14:46.044 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 16:14:46.460 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 16:14:46.461 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 417.3450ms
+2023-08-28 16:14:46.470 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.9808ms
+2023-08-28 16:14:46.470 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 16:14:46.490 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.1219ms
+2023-08-28 16:14:46.594 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:14:46.765 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 171.7646ms
+2023-08-28 16:15:06.719 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 16:15:06.728 +07:00 [INF] CORS policy execution successful.
+2023-08-28 16:15:06.737 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 16:15:07.382 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 16:15:07.399 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 16:15:07.838 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 16:15:07.848 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 16:15:07.848 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 16:15:08.315 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 16:15:09.615 +07:00 [INF] Executed DbCommand (210ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 16:15:09.700 +07:00 [INF] Authen Login: | End | test
+2023-08-28 16:15:10.023 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 16:15:10.033 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 16:15:10.038 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 2634.9965ms
+2023-08-28 16:15:10.039 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 16:15:10.040 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 3300.4084 ms
+2023-08-28 16:15:10.041 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6IjhjYWYwMWRjLWNkZDctNGM1Zi05NGU5LTk0Y2Q0NTZiNTU4NCIsImV4cCI6MTY5MzMwMDUwOX0.8eow8q3tBqA1V2ahVKyK2kOJS2GbSb4-5xou3xZrrqg","expiration":"2023-08-29T09:15:09Z"}
+2023-08-28 16:15:10.046 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 3327.5291ms
+2023-08-28 16:15:26.581 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=2 - -
+2023-08-28 16:15:26.582 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /ads/master/GetProvinceAll
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 16:15:26.620 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 16:15:26.626 +07:00 [INF] Route matched with {action = "GetProvinceAll", controller = "Master"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ProvinceData]] GetProvinceAll(Int32) on controller ADSWEBAPP_API.Controllers.MasterController (ADSWEBAPP_API).
+2023-08-28 16:15:26.635 +07:00 [INF] Requested: GetProvinceAll | Process | 2
+2023-08-28 16:15:26.731 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[:langId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."PROVINCE_NAME" "Province", "a"."PROVINCE_CODE" "ProvinceCode", "a"."PROVINCE_ABBR" "ProvinceAbbr", "a"."POSTCODE_PROVINCE_PREFIX" "PostcodeProvincePrefix", "a"."THP_REGION_ID" "ThpRegionId", "a"."POSTCODE" "Postcode", "a"."REGION_NAME_4" "RegionName4", "a"."REGION_NAME_6" "RegionName6", "a"."REGION_TAT" "RegionTat", "a"."BANGKOK_VICINITY" "BangkokVicinity"
+FROM "ADS_PROVINCE_MASTER" "a"
+WHERE (((((("a"."INACTIVE" <> 1) OR ("a"."INACTIVE" IS NULL))) AND ("a"."EXPIRY_DATE" IS NULL))) AND ("a"."LANG_ID" = :langId_0))
+ORDER BY "a"."PROVINCE_CODE", "a"."LANG_ID"
+2023-08-28 16:15:26.741 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ProvinceData, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-28 16:15:26.743 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 16:15:26.744 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API) in 117.8011ms
+2023-08-28 16:15:26.744 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 16:15:26.744 +07:00 [INF] HTTP GET /ads/master/GetProvinceAll responded 200 in 161.8871 ms
+2023-08-28 16:15:26.744 +07:00 [INF] ResponseBody: [{"province":"Bangkok","provinceCode":10,"provinceAbbr":"BK","postcodeProvincePrefix":10,"thpRegionId":30,"postcode":"10000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Prakan","provinceCode":11,"provinceAbbr":"SP","postcodeProvincePrefix":10,"thpRegionId":24,"postcode":"10270","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Nonthaburi","provinceCode":12,"provinceAbbr":"NB","postcodeProvincePrefix":11,"thpRegionId":21,"postcode":"11000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Pathum Thani","provinceCode":13,"provinceAbbr":"PT","postcodeProvincePrefix":12,"thpRegionId":22,"postcode":"12000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Phra Nakhon Si Ayutthaya","provinceCode":14,"provinceAbbr":"AY","postcodeProvincePrefix":13,"thpRegionId":1,"postcode":"13000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Ang Thong","provinceCode":15,"provinceAbbr":"AT","postcodeProvincePrefix":14,"thpRegionId":1,"postcode":"14000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Lop Buri","provinceCode":16,"provinceAbbr":"LB","postcodeProvincePrefix":15,"thpRegionId":1,"postcode":"15000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sing Buri","provinceCode":17,"provinceAbbr":"SH","postcodeProvincePrefix":16,"thpRegionId":1,"postcode":"16000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Chai Nat","provinceCode":18,"provinceAbbr":"CN","postcodeProvincePrefix":17,"thpRegionId":1,"postcode":"17000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Saraburi","provinceCode":19,"provinceAbbr":"SB","postcodeProvincePrefix":18,"thpRegionId":1,"postcode":"18000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Chon Buri","provinceCode":20,"provinceAbbr":"CB","postcodeProvincePrefix":20,"thpRegionId":2,"postcode":"20000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Rayong","provinceCode":21,"provinceAbbr":"RY","postcodeProvincePrefix":21,"thpRegionId":2,"postcode":"21000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Chanthaburi","provinceCode":22,"provinceAbbr":"JB","postcodeProvincePrefix":22,"thpRegionId":2,"postcode":"22000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Trat","provinceCode":23,"provinceAbbr":"TD","postcodeProvincePrefix":23,"thpRegionId":2,"postcode":"23000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Chachoengsao","provinceCode":24,"provinceAbbr":"CC","postcodeProvincePrefix":24,"thpRegionId":2,"postcode":"24000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Prachin Buri","provinceCode":25,"provinceAbbr":"PA","postcodeProvincePrefix":25,"thpRegionId":2,"postcode":"25000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Nayok","provinceCode":26,"provinceAbbr":"NY","postcodeProvincePrefix":26,"thpRegionId":2,"postcode":"26000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sa Kaeo","provinceCode":27,"provinceAbbr":"SO","postcodeProvincePrefix":27,"thpRegionId":2,"postcode":"27000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Ratchasima","provinceCode":30,"provinceAbbr":"NM","postcodeProvincePrefix":30,"thpRegionId":3,"postcode":"30000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Buri Ram","provinceCode":31,"provinceAbbr":"BR","postcodeProvincePrefix":31,"thpRegionId":3,"postcode":"31000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Surin","provinceCode":32,"provinceAbbr":"SR","postcodeProvincePrefix":32,"thpRegionId":3,"postcode":"32000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Si Sa Ket","provinceCode":33,"provinceAbbr":"SI","postcodeProvincePrefix":33,"thpRegionId":10,"postcode":"33000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Ubon Ratchathani","provinceCode":34,"provinceAbbr":"UB","postcodeProvincePrefix":34,"thpRegionId":10,"postcode":"34000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Yasothon","provinceCode":35,"provinceAbbr":"YT","postcodeProvincePrefix":35,"thpRegionId":10,"postcode":"35000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Chaiyaphum","provinceCode":36,"provinceAbbr":"CY","postcodeProvincePrefix":36,"thpRegionId":3,"postcode":"36000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Amnat Charoen","provinceCode":37,"provinceAbbr":"AC","postcodeProvincePrefix":37,"thpRegionId":10,"postcode":"37000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Bueng Kan","provinceCode":38,"provinceAbbr":"BN","postcodeProvincePrefix":38,"thpRegionId":4,"postcode":"38000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nong Bua Lam Phu","provinceCode":39,"provinceAbbr":"NL","postcodeProvincePrefix":39,"thpRegionId":4,"postcode":"39000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Khon Kaen","provinceCode":40,"provinceAbbr":"KK","postcodeProvincePrefix":40,"thpRegionId":4,"postcode":"40000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Udon Thani","provinceCode":41,"provinceAbbr":"UD","postcodeProvincePrefix":41,"thpRegionId":4,"postcode":"41000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Loei","provinceCode":42,"provinceAbbr":"LY","postcodeProvincePrefix":42,"thpRegionId":4,"postcode":"42000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nong Khai","provinceCode":43,"provinceAbbr":"NK","postcodeProvincePrefix":43,"thpRegionId":4,"postcode":"43000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Maha Sarakham","provinceCode":44,"provinceAbbr":"MK","postcodeProvincePrefix":44,"thpRegionId":4,"postcode":"44000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Roi Et","provinceCode":45,"provinceAbbr":"RE","postcodeProvincePrefix":45,"thpRegionId":3,"postcode":"45000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Kalasin","provinceCode":46,"provinceAbbr":"KS","postcodeProvincePrefix":46,"thpRegionId":4,"postcode":"46000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Sakon Nakhon","provinceCode":47,"provinceAbbr":"SN","postcodeProvincePrefix":47,"thpRegionId":10,"postcode":"47000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Phanom","provinceCode":48,"provinceAbbr":"NP","postcodeProvincePrefix":48,"thpRegionId":10,"postcode":"48000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Mukdahan","provinceCode":49,"provinceAbbr":"MD","postcodeProvincePrefix":49,"thpRegionId":10,"postcode":"49000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Chiang Mai","provinceCode":50,"provinceAbbr":"CM","postcodeProvincePrefix":50,"thpRegionId":5,"postcode":"50000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Lamphun","provinceCode":51,"provinceAbbr":"LN","postcodeProvincePrefix":51,"thpRegionId":5,"postcode":"51000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Lampang","provinceCode":52,"provinceAbbr":"LP","postcodeProvincePrefix":52,"thpRegionId":5,"postcode":"52000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Uttaradit","provinceCode":53,"provinceAbbr":"UT","postcodeProvincePrefix":53,"thpRegionId":5,"postcode":"53000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phrae","provinceCode":54,"provinceAbbr":"PR","postcodeProvincePrefix":54,"thpRegionId":5,"postcode":"54000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Nan","provinceCode":55,"provinceAbbr":"NA","postcodeProvincePrefix":55,"thpRegionId":5,"postcode":"55000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phayao","provinceCode":56,"provinceAbbr":"PY","postcodeProvincePrefix":56,"thpRegionId":5,"postcode":"56000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Chiang Rai","provinceCode":57,"provinceAbbr":"CR","postcodeProvincePrefix":57,"thpRegionId":5,"postcode":"57000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Mae Hong Son","provinceCode":58,"provinceAbbr":"MS","postcodeProvincePrefix":58,"thpRegionId":5,"postcode":"58000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Sawan","provinceCode":60,"provinceAbbr":"NW","postcodeProvincePrefix":60,"thpRegionId":6,"postcode":"60000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Uthai Thani","provinceCode":61,"provinceAbbr":"UN","postcodeProvincePrefix":61,"thpRegionId":6,"postcode":"61000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Kamphaeng Phet","provinceCode":62,"provinceAbbr":"KP","postcodeProvincePrefix":62,"thpRegionId":6,"postcode":"62000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Tak","provinceCode":63,"provinceAbbr":"TK","postcodeProvincePrefix":63,"thpRegionId":6,"postcode":"63000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sukhothai","provinceCode":64,"provinceAbbr":"SY","postcodeProvincePrefix":64,"thpRegionId":6,"postcode":"64000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phitsanulok","provinceCode":65,"provinceAbbr":"PL","postcodeProvincePrefix":65,"thpRegionId":6,"postcode":"65000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phichit","provinceCode":66,"provinceAbbr":"PI","postcodeProvincePrefix":66,"thpRegionId":6,"postcode":"66000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phetchabun","provinceCode":67,"provinceAbbr":"PC","postcodeProvincePrefix":67,"thpRegionId":6,"postcode":"67000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Ratchaburi","provinceCode":70,"provinceAbbr":"RB","postcodeProvincePrefix":70,"thpRegionId":7,"postcode":"70000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Kanchanaburi","provinceCode":71,"provinceAbbr":"KJ","postcodeProvincePrefix":71,"thpRegionId":7,"postcode":"71000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Suphan Buri","provinceCode":72,"provinceAbbr":"SU","postcodeProvincePrefix":72,"thpRegionId":7,"postcode":"72000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Nakhon Pathom","provinceCode":73,"provinceAbbr":"NT","postcodeProvincePrefix":73,"thpRegionId":7,"postcode":"73000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Sakhon","provinceCode":74,"provinceAbbr":"SA","postcodeProvincePrefix":74,"thpRegionId":7,"postcode":"74000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Songkhram","provinceCode":75,"provinceAbbr":"SS","postcodeProvincePrefix":75,"thpRegionId":7,"postcode":"75000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Phetchaburi","provinceCode":76,"provinceAbbr":"PB","postcodeProvincePrefix":76,"thpRegionId":7,"postcode":"76000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Prachuap Khiri Khan","provinceCode":77,"provinceAbbr":"PJ","postcodeProvincePrefix":77,"thpRegionId":7,"postcode":"77000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Nakhon Si Thammarat","provinceCode":80,"provinceAbbr":"NS","postcodeProvincePrefix":80,"thpRegionId":8,"postcode":"80000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Krabi","provinceCode":81,"provinceAbbr":"KB","postcodeProvincePrefix":81,"thpRegionId":8,"postcode":"81000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phang-nga","provinceCode":82,"provinceAbbr":"PG","postcodeProvincePrefix":82,"thpRegionId":8,"postcode":"82000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phuket","provinceCode":83,"provinceAbbr":"PK","postcodeProvincePrefix":83,"thpRegionId":8,"postcode":"83000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Surat Thani","provinceCode":84,"provinceAbbr":"SD","postcodeProvincePrefix":84,"thpRegionId":8,"postcode":"84000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Ranong","provinceCode":85,"provinceAbbr":"RN","postcodeProvincePrefix":85,"thpRegionId":8,"postcode":"85000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Chumphon","provinceCode":86,"provinceAbbr":"CP","postcodeProvincePrefix":86,"thpRegionId":8,"postcode":"86000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Songkhla","provinceCode":90,"provinceAbbr":"SK","postcodeProvincePrefix":90,"thpRegionId":9,"postcode":"90000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Satun","provinceCode":91,"provinceAbbr":"ST","postcodeProvincePrefix":91,"thpRegionId":9,"postcode":"91000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Trang","provinceCode":92,"provinceAbbr":"TR","postcodeProvincePrefix":92,"thpRegionId":9,"postcode":"92000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phatthalung","provinceCode":93,"provinceAbbr":"PU","postcodeProvincePrefix":93,"thpRegionId":9,"postcode":"93000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Pattani","provinceCode":94,"provinceAbbr":"PN","postcodeProvincePrefix":94,"thpRegionId":9,"postcode":"94000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Yala","provinceCode":95,"provinceAbbr":"YL","postcodeProvincePrefix":95,"thpRegionId":9,"postcode":"95000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Narathiwat","provinceCode":96,"provinceAbbr":"NR","postcodeProvincePrefix":96,"thpRegionId":9,"postcode":"96000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"}]
+2023-08-28 16:15:26.746 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=2 - - - 200 - application/json;+charset=utf-8 164.4589ms
+2023-08-28 16:16:36.224 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 16:16:36.360 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:16:36.361 +07:00 [INF] Hosting environment: Development
+2023-08-28 16:16:36.364 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 16:16:36.394 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 16:16:36.630 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 16:16:36.630 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 236.4823ms
+2023-08-28 16:16:36.648 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 16:16:36.648 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 18.1652ms
+2023-08-28 16:16:36.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.9513ms
+2023-08-28 16:16:36.769 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:16:36.974 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 204.1325ms
+2023-08-28 16:16:45.749 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50
+2023-08-28 16:16:45.752 +07:00 [INF] CORS policy execution successful.
+2023-08-28 16:16:45.759 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ads/Authenticate/Login
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Content-Length: 50
+Content-Type: application/json
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+origin: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 16:16:45.825 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 16:16:45.836 +07:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.AuthenData.ResponseModel] Login(ADSWEBAPP_API.Dto.AuthenData.LoginModel) on controller ADSWEBAPP_API.Controllers.AuthenticateController (ADSWEBAPP_API).
+2023-08-28 16:16:45.943 +07:00 [INF] RequestBody: {
+  "username": "test",
+  "password": "test1234"
+}
+2023-08-28 16:16:45.953 +07:00 [INF] Authen Login: | Start | 
+2023-08-28 16:16:45.953 +07:00 [INF] Authen Login: | Process | test
+2023-08-28 16:16:46.371 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-08-28 16:16:46.908 +07:00 [INF] Executed DbCommand (61ms) [Parameters=[:model_Username_0='?' (Size = 2000), :EncyptPassword_1='?' (Size = 2000), :p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."TBL_ID", "a"."EXPIRE_DATE", "a"."INACTIVE", "a"."PASSWORD", "a"."START_DATE", "a"."USERNAME", "a"."EMAIL", "a"."FISRTNAME", "a"."LASTNAME"
+FROM "ADS_ACCOUNT" "a"
+WHERE (((((("a"."USERNAME" = :model_Username_0) AND ("a"."PASSWORD" = :EncyptPassword_1))) AND ((("a"."START_DATE" <= SYSDATE) AND ("a"."EXPIRE_DATE" >= SYSDATE))))) AND ("a"."INACTIVE" = 0))
+FETCH FIRST :p_2 ROWS ONLY
+2023-08-28 16:16:46.979 +07:00 [INF] Authen Login: | End | test
+2023-08-28 16:16:47.065 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-28 16:16:47.077 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 16:16:47.082 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API) in 1241.8785ms
+2023-08-28 16:16:47.083 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.AuthenticateController.Login (ADSWEBAPP_API)'
+2023-08-28 16:16:47.085 +07:00 [INF] HTTP POST /ads/Authenticate/Login responded 200 in 1323.1430 ms
+2023-08-28 16:16:47.086 +07:00 [INF] ResponseBody: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdCIsImp0aSI6IjU0NGZlMzAxLWVkYzItNGE1Ny1hMmI3LTg0NzA4MDY4MjU3NiIsImV4cCI6MTY5MzMwMDYwNn0.hB4ehzTeoJpy9OCjf4ef-g4sZ55fi30ipmgtHwPBldk","expiration":"2023-08-29T09:16:46Z"}
+2023-08-28 16:16:47.092 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44337/ads/Authenticate/Login application/json 50 - 200 - application/json;+charset=utf-8 1342.7310ms
+2023-08-28 16:17:01.562 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=2 - -
+2023-08-28 16:17:01.563 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /ads/master/GetProvinceAll
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Authorization: [Redacted]
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 16:17:01.601 +07:00 [INF] Executing endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 16:17:01.606 +07:00 [INF] Route matched with {action = "GetProvinceAll", controller = "Master"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ADSWEBAPP_API.Dto.ProvinceData]] GetProvinceAll(Int32) on controller ADSWEBAPP_API.Controllers.MasterController (ADSWEBAPP_API).
+2023-08-28 16:17:01.613 +07:00 [INF] Requested: GetProvinceAll | Process | 2
+2023-08-28 16:17:01.724 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[:langId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."PROVINCE_NAME" "Province", "a"."PROVINCE_CODE" "ProvinceCode", "a"."PROVINCE_ABBR" "ProvinceAbbr", "a"."POSTCODE_PROVINCE_PREFIX" "PostcodeProvincePrefix", "a"."THP_REGION_ID" "ThpRegionId", "a"."POSTCODE" "Postcode", "a"."REGION_NAME_4" "RegionName4", "a"."REGION_NAME_6" "RegionName6", "a"."REGION_TAT" "RegionTat", "a"."BANGKOK_VICINITY" "BangkokVicinity"
+FROM "ADS_PROVINCE_MASTER" "a"
+WHERE (((((("a"."INACTIVE" <> 1) OR ("a"."INACTIVE" IS NULL))) AND ("a"."EXPIRY_DATE" IS NULL))) AND ("a"."LANG_ID" = :langId_0))
+ORDER BY "a"."PROVINCE_CODE", "a"."LANG_ID"
+2023-08-28 16:17:01.742 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ADSWEBAPP_API.Dto.ProvinceData, ADSWEBAPP_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-28 16:17:01.746 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2023-08-28 16:17:01.747 +07:00 [INF] Executed action ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API) in 140.946ms
+2023-08-28 16:17:01.747 +07:00 [INF] Executed endpoint 'ADSWEBAPP_API.Controllers.MasterController.GetProvinceAll (ADSWEBAPP_API)'
+2023-08-28 16:17:01.747 +07:00 [INF] HTTP GET /ads/master/GetProvinceAll responded 200 in 183.7470 ms
+2023-08-28 16:17:01.747 +07:00 [INF] ResponseBody: [{"province":"Bangkok","provinceCode":10,"provinceAbbr":"BK","postcodeProvincePrefix":10,"thpRegionId":30,"postcode":"10000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Prakan","provinceCode":11,"provinceAbbr":"SP","postcodeProvincePrefix":10,"thpRegionId":24,"postcode":"10270","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Nonthaburi","provinceCode":12,"provinceAbbr":"NB","postcodeProvincePrefix":11,"thpRegionId":21,"postcode":"11000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Pathum Thani","provinceCode":13,"provinceAbbr":"PT","postcodeProvincePrefix":12,"thpRegionId":22,"postcode":"12000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Phra Nakhon Si Ayutthaya","provinceCode":14,"provinceAbbr":"AY","postcodeProvincePrefix":13,"thpRegionId":1,"postcode":"13000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Ang Thong","provinceCode":15,"provinceAbbr":"AT","postcodeProvincePrefix":14,"thpRegionId":1,"postcode":"14000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Lop Buri","provinceCode":16,"provinceAbbr":"LB","postcodeProvincePrefix":15,"thpRegionId":1,"postcode":"15000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sing Buri","provinceCode":17,"provinceAbbr":"SH","postcodeProvincePrefix":16,"thpRegionId":1,"postcode":"16000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Chai Nat","provinceCode":18,"provinceAbbr":"CN","postcodeProvincePrefix":17,"thpRegionId":1,"postcode":"17000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Saraburi","provinceCode":19,"provinceAbbr":"SB","postcodeProvincePrefix":18,"thpRegionId":1,"postcode":"18000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Chon Buri","provinceCode":20,"provinceAbbr":"CB","postcodeProvincePrefix":20,"thpRegionId":2,"postcode":"20000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Rayong","provinceCode":21,"provinceAbbr":"RY","postcodeProvincePrefix":21,"thpRegionId":2,"postcode":"21000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Chanthaburi","provinceCode":22,"provinceAbbr":"JB","postcodeProvincePrefix":22,"thpRegionId":2,"postcode":"22000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Trat","provinceCode":23,"provinceAbbr":"TD","postcodeProvincePrefix":23,"thpRegionId":2,"postcode":"23000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Chachoengsao","provinceCode":24,"provinceAbbr":"CC","postcodeProvincePrefix":24,"thpRegionId":2,"postcode":"24000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Prachin Buri","provinceCode":25,"provinceAbbr":"PA","postcodeProvincePrefix":25,"thpRegionId":2,"postcode":"25000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Nayok","provinceCode":26,"provinceAbbr":"NY","postcodeProvincePrefix":26,"thpRegionId":2,"postcode":"26000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sa Kaeo","provinceCode":27,"provinceAbbr":"SO","postcodeProvincePrefix":27,"thpRegionId":2,"postcode":"27000","regionName4":"Eastern","regionName6":"Central","regionTat":"Eastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Ratchasima","provinceCode":30,"provinceAbbr":"NM","postcodeProvincePrefix":30,"thpRegionId":3,"postcode":"30000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Buri Ram","provinceCode":31,"provinceAbbr":"BR","postcodeProvincePrefix":31,"thpRegionId":3,"postcode":"31000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Surin","provinceCode":32,"provinceAbbr":"SR","postcodeProvincePrefix":32,"thpRegionId":3,"postcode":"32000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Si Sa Ket","provinceCode":33,"provinceAbbr":"SI","postcodeProvincePrefix":33,"thpRegionId":10,"postcode":"33000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Ubon Ratchathani","provinceCode":34,"provinceAbbr":"UB","postcodeProvincePrefix":34,"thpRegionId":10,"postcode":"34000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Yasothon","provinceCode":35,"provinceAbbr":"YT","postcodeProvincePrefix":35,"thpRegionId":10,"postcode":"35000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Chaiyaphum","provinceCode":36,"provinceAbbr":"CY","postcodeProvincePrefix":36,"thpRegionId":3,"postcode":"36000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Amnat Charoen","provinceCode":37,"provinceAbbr":"AC","postcodeProvincePrefix":37,"thpRegionId":10,"postcode":"37000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Bueng Kan","provinceCode":38,"provinceAbbr":"BN","postcodeProvincePrefix":38,"thpRegionId":4,"postcode":"38000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nong Bua Lam Phu","provinceCode":39,"provinceAbbr":"NL","postcodeProvincePrefix":39,"thpRegionId":4,"postcode":"39000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Khon Kaen","provinceCode":40,"provinceAbbr":"KK","postcodeProvincePrefix":40,"thpRegionId":4,"postcode":"40000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Udon Thani","provinceCode":41,"provinceAbbr":"UD","postcodeProvincePrefix":41,"thpRegionId":4,"postcode":"41000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Loei","provinceCode":42,"provinceAbbr":"LY","postcodeProvincePrefix":42,"thpRegionId":4,"postcode":"42000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nong Khai","provinceCode":43,"provinceAbbr":"NK","postcodeProvincePrefix":43,"thpRegionId":4,"postcode":"43000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Maha Sarakham","provinceCode":44,"provinceAbbr":"MK","postcodeProvincePrefix":44,"thpRegionId":4,"postcode":"44000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Roi Et","provinceCode":45,"provinceAbbr":"RE","postcodeProvincePrefix":45,"thpRegionId":3,"postcode":"45000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Kalasin","provinceCode":46,"provinceAbbr":"KS","postcodeProvincePrefix":46,"thpRegionId":4,"postcode":"46000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Sakon Nakhon","provinceCode":47,"provinceAbbr":"SN","postcodeProvincePrefix":47,"thpRegionId":10,"postcode":"47000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Phanom","provinceCode":48,"provinceAbbr":"NP","postcodeProvincePrefix":48,"thpRegionId":10,"postcode":"48000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Mukdahan","provinceCode":49,"provinceAbbr":"MD","postcodeProvincePrefix":49,"thpRegionId":10,"postcode":"49000","regionName4":"Northeastern","regionName6":"Northeastern","regionTat":"Northeastern","bangkokVicinity":"Upcountry"},{"province":"Chiang Mai","provinceCode":50,"provinceAbbr":"CM","postcodeProvincePrefix":50,"thpRegionId":5,"postcode":"50000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Lamphun","provinceCode":51,"provinceAbbr":"LN","postcodeProvincePrefix":51,"thpRegionId":5,"postcode":"51000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Lampang","provinceCode":52,"provinceAbbr":"LP","postcodeProvincePrefix":52,"thpRegionId":5,"postcode":"52000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Uttaradit","provinceCode":53,"provinceAbbr":"UT","postcodeProvincePrefix":53,"thpRegionId":5,"postcode":"53000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phrae","provinceCode":54,"provinceAbbr":"PR","postcodeProvincePrefix":54,"thpRegionId":5,"postcode":"54000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Nan","provinceCode":55,"provinceAbbr":"NA","postcodeProvincePrefix":55,"thpRegionId":5,"postcode":"55000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phayao","provinceCode":56,"provinceAbbr":"PY","postcodeProvincePrefix":56,"thpRegionId":5,"postcode":"56000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Chiang Rai","provinceCode":57,"provinceAbbr":"CR","postcodeProvincePrefix":57,"thpRegionId":5,"postcode":"57000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Mae Hong Son","provinceCode":58,"provinceAbbr":"MS","postcodeProvincePrefix":58,"thpRegionId":5,"postcode":"58000","regionName4":"Northern","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Nakhon Sawan","provinceCode":60,"provinceAbbr":"NW","postcodeProvincePrefix":60,"thpRegionId":6,"postcode":"60000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Uthai Thani","provinceCode":61,"provinceAbbr":"UN","postcodeProvincePrefix":61,"thpRegionId":6,"postcode":"61000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Kamphaeng Phet","provinceCode":62,"provinceAbbr":"KP","postcodeProvincePrefix":62,"thpRegionId":6,"postcode":"62000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Tak","provinceCode":63,"provinceAbbr":"TK","postcodeProvincePrefix":63,"thpRegionId":6,"postcode":"63000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Sukhothai","provinceCode":64,"provinceAbbr":"SY","postcodeProvincePrefix":64,"thpRegionId":6,"postcode":"64000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phitsanulok","provinceCode":65,"provinceAbbr":"PL","postcodeProvincePrefix":65,"thpRegionId":6,"postcode":"65000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phichit","provinceCode":66,"provinceAbbr":"PI","postcodeProvincePrefix":66,"thpRegionId":6,"postcode":"66000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Phetchabun","provinceCode":67,"provinceAbbr":"PC","postcodeProvincePrefix":67,"thpRegionId":6,"postcode":"67000","regionName4":"Central","regionName6":"Northern","regionTat":"Northern","bangkokVicinity":"Upcountry"},{"province":"Ratchaburi","provinceCode":70,"provinceAbbr":"RB","postcodeProvincePrefix":70,"thpRegionId":7,"postcode":"70000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Kanchanaburi","provinceCode":71,"provinceAbbr":"KJ","postcodeProvincePrefix":71,"thpRegionId":7,"postcode":"71000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Suphan Buri","provinceCode":72,"provinceAbbr":"SU","postcodeProvincePrefix":72,"thpRegionId":7,"postcode":"72000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Nakhon Pathom","provinceCode":73,"provinceAbbr":"NT","postcodeProvincePrefix":73,"thpRegionId":7,"postcode":"73000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Sakhon","provinceCode":74,"provinceAbbr":"SA","postcodeProvincePrefix":74,"thpRegionId":7,"postcode":"74000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Bangkok Metropolis and Vicinity"},{"province":"Samut Songkhram","provinceCode":75,"provinceAbbr":"SS","postcodeProvincePrefix":75,"thpRegionId":7,"postcode":"75000","regionName4":"Central","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Phetchaburi","provinceCode":76,"provinceAbbr":"PB","postcodeProvincePrefix":76,"thpRegionId":7,"postcode":"76000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Prachuap Khiri Khan","provinceCode":77,"provinceAbbr":"PJ","postcodeProvincePrefix":77,"thpRegionId":7,"postcode":"77000","regionName4":"Western","regionName6":"Central","regionTat":"Central","bangkokVicinity":"Upcountry"},{"province":"Nakhon Si Thammarat","provinceCode":80,"provinceAbbr":"NS","postcodeProvincePrefix":80,"thpRegionId":8,"postcode":"80000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Krabi","provinceCode":81,"provinceAbbr":"KB","postcodeProvincePrefix":81,"thpRegionId":8,"postcode":"81000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phang-nga","provinceCode":82,"provinceAbbr":"PG","postcodeProvincePrefix":82,"thpRegionId":8,"postcode":"82000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phuket","provinceCode":83,"provinceAbbr":"PK","postcodeProvincePrefix":83,"thpRegionId":8,"postcode":"83000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Surat Thani","provinceCode":84,"provinceAbbr":"SD","postcodeProvincePrefix":84,"thpRegionId":8,"postcode":"84000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Ranong","provinceCode":85,"provinceAbbr":"RN","postcodeProvincePrefix":85,"thpRegionId":8,"postcode":"85000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Chumphon","provinceCode":86,"provinceAbbr":"CP","postcodeProvincePrefix":86,"thpRegionId":8,"postcode":"86000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Songkhla","provinceCode":90,"provinceAbbr":"SK","postcodeProvincePrefix":90,"thpRegionId":9,"postcode":"90000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Satun","provinceCode":91,"provinceAbbr":"ST","postcodeProvincePrefix":91,"thpRegionId":9,"postcode":"91000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Trang","provinceCode":92,"provinceAbbr":"TR","postcodeProvincePrefix":92,"thpRegionId":9,"postcode":"92000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Phatthalung","provinceCode":93,"provinceAbbr":"PU","postcodeProvincePrefix":93,"thpRegionId":9,"postcode":"93000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Pattani","provinceCode":94,"provinceAbbr":"PN","postcodeProvincePrefix":94,"thpRegionId":9,"postcode":"94000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Yala","provinceCode":95,"provinceAbbr":"YL","postcodeProvincePrefix":95,"thpRegionId":9,"postcode":"95000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"},{"province":"Narathiwat","provinceCode":96,"provinceAbbr":"NR","postcodeProvincePrefix":96,"thpRegionId":9,"postcode":"96000","regionName4":"Southern","regionName6":"Southern","regionTat":"Southern","bangkokVicinity":"Upcountry"}]
+2023-08-28 16:17:01.749 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/master/GetProvinceAll?langid=2 - - - 200 - application/json;+charset=utf-8 187.3194ms
+2023-08-28 16:22:39.403 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 16:22:39.507 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:22:39.508 +07:00 [INF] Hosting environment: Development
+2023-08-28 16:22:39.508 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 16:22:39.527 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 16:22:39.716 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 190.0570ms
+2023-08-28 16:22:39.717 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 16:22:39.722 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.0754ms
+2023-08-28 16:22:39.734 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 16:22:39.761 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.3989ms
+2023-08-28 16:22:39.819 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:22:39.981 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 162.7448ms
+2023-08-28 16:26:04.463 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 16:26:04.572 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:26:04.572 +07:00 [INF] Hosting environment: Development
+2023-08-28 16:26:04.573 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 16:26:04.595 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 16:26:04.819 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 223.0918ms
+2023-08-28 16:26:04.826 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 16:26:04.835 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 8.2582ms
+2023-08-28 16:26:04.840 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 16:26:04.863 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.4857ms
+2023-08-28 16:26:04.913 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:26:05.016 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 103.0668ms
+2023-08-28 16:26:23.758 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:26:23.782 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 24.4991ms
+2023-08-28 16:26:23.963 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/favicon.ico - -
+2023-08-28 16:26:23.970 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7
+Connection: close
+Host: localhost:44337
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-08-28 16:26:24.043 +07:00 [INF] HTTP GET /favicon.ico responded 404 in 69.9006 ms
+2023-08-28 16:26:24.046 +07:00 [INF] Response:
+StatusCode: 404
+2023-08-28 16:26:24.047 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/favicon.ico - - - 404 - - 84.6820ms
+2023-08-28 16:28:34.299 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 16:28:34.396 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:28:34.396 +07:00 [INF] Hosting environment: Development
+2023-08-28 16:28:34.396 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 16:28:34.416 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 16:28:34.623 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 208.2697ms
+2023-08-28 16:28:34.626 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 16:28:34.630 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.8636ms
+2023-08-28 16:28:34.646 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 16:28:34.670 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9135ms
+2023-08-28 16:28:34.768 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:28:34.892 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 124.3357ms
+2023-08-28 16:31:22.144 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-28 16:31:22.252 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:31:22.252 +07:00 [INF] Hosting environment: Development
+2023-08-28 16:31:22.252 +07:00 [INF] Content root path: D:\Project\ADSWEBAPP_API\ADSWEBAPP_API
+2023-08-28 16:31:22.274 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/index.html - -
+2023-08-28 16:31:22.517 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - -
+2023-08-28 16:31:22.528 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/index.html - - - 200 - text/html;charset=utf-8 249.2666ms
+2023-08-28 16:31:22.531 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 6.2439ms
+2023-08-28 16:31:22.536 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - -
+2023-08-28 16:31:22.569 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8130ms
+2023-08-28 16:31:22.698 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:31:22.839 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 141.2026ms
+2023-08-28 16:31:26.549 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - -
+2023-08-28 16:31:26.570 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44337/ads/swagger/v1/ads.json - - - 200 - application/json;charset=utf-8 20.7689ms

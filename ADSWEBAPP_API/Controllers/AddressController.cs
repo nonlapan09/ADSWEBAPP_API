@@ -1,7 +1,6 @@
 ﻿using ADSWEBAPP_API.Data;
 using ADSWEBAPP_API.Data.Address;
 using ADSWEBAPP_API.Dto;
-using ADSWEBAPP_API.Log;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -37,11 +36,12 @@ namespace ADSWEBAPP_API.Controllers
         {
             try
             {
+                Serilog.Log.Information("Called GetMasterCCAATTByPostcode");
                 _logger.LogInformation("API call started...");
                 _logger.LogInformation("Requested: GetMasterCCAATTByPostcode | Start | ");
                 _logger.LogInformation("Requested: GetMasterCCAATTByPostcode | Process | " + JsonRequest.Postcode);
                 _logger.LogInformation("Requested: GetMasterCCAATTByPostcode | Process | " + JsonRequest.Postcode + " | " + JsonSerializer.Serialize(JsonRequest));
-
+               
                 
                 // Get Client IP
                 ///

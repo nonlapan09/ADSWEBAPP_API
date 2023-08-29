@@ -3,7 +3,6 @@ using ADSWEBAPP_API.Data;
 using ADSWEBAPP_API.Data.Address;
 using ADSWEBAPP_API.Data.Authentication;
 using ADSWEBAPP_API.Dto.AuthenData;
-using ADSWEBAPP_API.Log;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -12,24 +11,57 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using NLog;
-using NLog.Web;
+using Microsoft.VisualBasic;
+using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.MSSqlServer;
 using Swashbuckle.AspNetCore.Filters;
+using System.Collections.ObjectModel;
+using System.Data;
 using System.Reflection;
 using System.Text;
 using static ADSWEBAPP_API.Controllers.SwaggerControllerOrderAttribute;
 
-var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+//var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 //var logger = NLog.Web.NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
 //var logger = LogManager.GetLogger("databaseLogger");
-
+//Log.Logger = new LoggerConfiguration()
+//    .MinimumLevel.Information()
+//    .WriteTo.File("Log/log-.txt", rollingInterval: RollingInterval.Hour)
+//    .WriteTo.MSSqlServer(
+//        connectionString: "User Id=ADSUSR;Password=adsProd65;Data Source=oracle04-scan.praisanee.com:1699/ADSDB_SRV;",
+//        sinkOptions: new MSSqlServerSinkOptions { TableName = "TBL_LOGGING" })
+//    .CreateLogger();
 
 try
 {
-    logger.Debug("Application Starting Up");
+
+    Log.Debug("Application Starting Up");
     var builder = WebApplication.CreateBuilder(args);
     var Configuration = builder.Configuration;
-    
+
+
+    //var columnOptions = new ColumnOptions
+    //{
+    //    AdditionalColumns = new Collection<SqlColumn>
+    //    {
+    //        new SqlColumn{ ColumnName = "MESSAGE", DataType = SqlDbType.NVarChar, AllowNull = false },
+    //        new SqlColumn{ ColumnName = "MESSAGETEMPLATE", DataType = SqlDbType.NVarChar, AllowNull = false },
+    //        new SqlColumn { ColumnName = "LEVELS", DataType = SqlDbType.NVarChar, AllowNull = false },
+    //        new SqlColumn { ColumnName = "TIMESTAMP", DataType = SqlDbType.DateTime, AllowNull = true },
+    //        new SqlColumn { ColumnName = "EXCEPTION", DataType = SqlDbType.NVarChar, AllowNull = false },
+    //        new SqlColumn { ColumnName = "PROPERTIES", DataType = SqlDbType.NVarChar, AllowNull = false },
+    //        new SqlColumn { ColumnName = "USERNAME", DataType = SqlDbType.NVarChar, AllowNull = false }
+    //    }
+    //};
+
+    Log.Logger = new LoggerConfiguration()
+        .ReadFrom.Configuration(builder.Configuration)
+        .Enrich.FromLogContext().CreateLogger();
+    //.WriteTo.MSSqlServer(builder.Configuration.GetConnectionString("APIContext"), sinkOptions: new MSSqlServerSinkOptions { TableName = "WEBAPILOGS" },
+    //columnOptions: columnOptions)
+    //.CreateLogger();
+
     //string swaggerBasePath = "ads";
     //CORS
     builder.Services.AddCors();
@@ -149,8 +181,10 @@ try
 
     );
 
-    builder.Logging.ClearProviders();
-    builder.Host.UseNLog();
+    //builder.Logging.ClearProviders();
+    //builder.Host.UseNLog();
+    builder.Host.UseSerilog();
+    builder.Logging.AddSerilog();
 
     var app = builder.Build();
 
@@ -185,6 +219,7 @@ try
     app.UseHttpsRedirection();
     app.UseHttpLogging();
 
+    app.UseSerilogRequestLogging();
     // Authentication & Authorization
     app.UseAuthentication();
 
@@ -196,12 +231,13 @@ try
 }
 catch(Exception ex)
 {
-    logger.Error(ex, "Stopped program because of exception");
+    Log.Fatal(ex, "Stopped program because of exception");
     throw;
 }
 finally
 {
-    NLog.LogManager.Shutdown();
+    //NLog.LogManager.Shutdown();
+    Log.CloseAndFlush();
 }
 
 
